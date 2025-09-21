@@ -38,7 +38,7 @@ jobs:
     name: Build Image
     needs: test
     runs-on: ubuntu-latest
-    # if: ${{ github.ref_name == 'dev' || github.ref_name == 'main' }}
+    if: ${{ github.ref_name == 'dev' || github.ref_name == 'main' }}
     steps:
       - name: Cloning repo
         uses: actions/checkout@v4
@@ -64,7 +64,7 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    # if: ${{ github.ref_name == 'main' }}
+    if: ${{ github.ref_name == 'main' }}
     steps:
       - name: Push to dokku
         uses: dokku/github-action@master
