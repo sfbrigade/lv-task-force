@@ -1,4 +1,4 @@
-# Full Stack Starter
+# LV Task Force Project
 
 This repository contains a "starter" project for web application development in JavaScript. This includes the following components, from front-end to back-end:
 
@@ -268,7 +268,7 @@ running. Use `docker ps` to list and check running containers.
 
 ## License
 
-Full Stack Starter  
+LV Task Force Project
 Copyright © 2025 SF Civic Tech
 
 This program is free software: you can redistribute it and/or modify
