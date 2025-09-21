@@ -31,7 +31,7 @@ export default fp(async (fastify) => {
   await fastify.register(swagger, {
     openapi: {
       info: {
-        title: 'Full Stack Starter API',
+        title: 'LV Task Force Project API',
         version,
       },
       servers: [
