@@ -1,0 +1,33 @@
+.preview {
+  margin: 1rem;
+  max-width: 300px;
+  position: relative;
+}
+
+.remove {
+  background-color: var(--mantine-color-gray-2);
+  border-radius: 50%;
+  position: absolute;
+  right: -0.75rem;
+  top: -0.75rem;
+}
+
+.spinner {
+  color: white;
+  display: none;
+  height: 3rem;
+  position: absolute;
+  top: calc(50% - 1.5rem);
+  left: calc(50% - 1.5rem);
+  width: 3rem;
+}
+
+.preview--uploading {
+  img {
+    opacity: 50%;
+  }
+
+  .spinner {
+    display: block;
+  }
+}
