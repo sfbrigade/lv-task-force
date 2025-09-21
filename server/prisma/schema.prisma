@@ -56,7 +56,7 @@ model LargeVehicle {
   reportingDate             DateTime
   vehicleId                 String   @unique
   wasVehicleInAudit         Boolean
-  licensePlateNumber        String?
+  licensePlateNumber        String?  @db.Citext
   licensePlateState         String?
   vehicleMake               String?
   vehicleModel              String?

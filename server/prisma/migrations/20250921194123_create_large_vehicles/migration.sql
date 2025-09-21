@@ -4,7 +4,7 @@ CREATE TABLE "public"."LargeVehicle" (
     "reportingDate" TIMESTAMP(3) NOT NULL,
     "vehicleId" TEXT NOT NULL,
     "wasVehicleInAudit" BOOLEAN NOT NULL,
-    "licensePlateNumber" TEXT,
+    "licensePlateNumber" CITEXT,
     "licensePlateState" TEXT,
     "vehicleMake" TEXT,
     "vehicleModel" TEXT,
