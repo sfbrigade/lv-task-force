@@ -1,0 +1,8 @@
+{
+  "cron": [
+    {
+      "command": "npm run import:largevehicles -w server",
+      "schedule": "0 15 * * *"
+    }
+  ]
+}
