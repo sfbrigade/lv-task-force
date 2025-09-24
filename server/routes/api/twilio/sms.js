@@ -7,15 +7,6 @@ export default async function (fastify, opts) {
     {
       schema: {
         description: 'Receives an SMS message from Twilio.',
-        body: {
-          content: {
-            'application/x-www-form-urlencoded': {
-              schema: z.object({
-                Body: z.string(),
-              }),
-            },
-          },
-        },
         response: {
           [StatusCodes.OK]: {
             content: {
@@ -31,7 +22,17 @@ export default async function (fastify, opts) {
       },
     },
     async function (request, reply) {
-      const { Body: body } = request.body;
+      const twilioSignature = request.headers['x-twilio-signature'];
+      const twilioUrl = `${process.env.BASE_URL}${request.url}`;
+      const twilioParams = { ...request.body };
+      const isSignatureValid = twilio.validateRequest(process.env.TWILIO_AUTH_TOKEN, twilioSignature, twilioUrl, twilioParams);
+
+      if (!isSignatureValid) {
+        reply.status(StatusCodes.FORBIDDEN).send('Invalid signature');
+        return;
+      }
+
+      const { Body: body } = twilioParams;
       const licensePlateNumber = body.match(/^[A-Z0-9\- ]{1,10}$/i)?.[0].toUpperCase();
       const twiml = new twilio.twiml.MessagingResponse();
       if (licensePlateNumber) {
