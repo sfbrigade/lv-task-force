@@ -58,16 +58,6 @@ model LargeVehicle {
   wasVehicleInAudit         Boolean
   licensePlateNumber        String?  @db.Citext
   licensePlateState         String?
-  vehicleMake               String?
-  vehicleModel              String?
-  vehicleColor              String?
-  firstLocationRaw          Json?
-  firstLocationLongitude    Decimal?
-  firstLocationLatitude     Decimal?
-  firstLocation             Json?
-  firstPoliceDistrict       String?
-  firstAnalysisNeighborhood String?
-  firstSupervisorDistrict   String?
   dataAsOf                  DateTime
   dataLoadedAt              DateTime
   updatedAt                 DateTime @updatedAt

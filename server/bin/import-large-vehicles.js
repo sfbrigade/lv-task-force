@@ -5,7 +5,6 @@
 
 import '../config.js';
 import prisma from '../prisma/client.js';
-import { Prisma } from '@prisma/client';
 
 const SOURCE_URL = 'https://data.sfgov.org/api/v3/views/yh8c-vm2p/query.json';
 
@@ -48,17 +47,6 @@ function toDate (v) {
   return isNaN(d.getTime()) ? null : d;
 }
 
-function toDecimal (v) {
-  if (v == null || v === '') return null;
-  const n = Number(v);
-  if (Number.isFinite(n)) return new Prisma.Decimal(n.toString());
-  try {
-    return new Prisma.Decimal(String(v));
-  } catch {
-    return null;
-  }
-}
-
 // Map a Socrata record into our Prisma LargeVehicle data shape
 function mapLargeVehicle (rec) {
   // Try a variety of likely field names from the dataset
@@ -67,18 +55,6 @@ function mapLargeVehicle (rec) {
   const wasVehicleInAudit = getField(rec, ['was vehicle in audit', 'in audit', 'audited', 'was_in_audit']);
   const licensePlateNumber = getField(rec, ['license plate number', 'plate', 'license_plate', 'license plate']);
   const licensePlateState = getField(rec, ['license plate state', 'plate state', 'state']);
-  const vehicleMake = getField(rec, ['vehicle make', 'make']);
-  const vehicleModel = getField(rec, ['vehicle model', 'model']);
-  const vehicleColor = getField(rec, ['vehicle color', 'color']);
-
-  const firstLocationRaw = JSON.parse(getField(rec, ['first location raw', 'first_location_raw', 'first location text', 'location']) ?? '{}');
-  const firstLocationLongitude = getField(rec, ['first location longitude', 'first_location_longitude', 'longitude', 'lon', 'lng']);
-  const firstLocationLatitude = getField(rec, ['first location latitude', 'first_location_latitude', 'latitude', 'lat']);
-  const firstLocation = getField(rec, ['first location', 'first_location', 'geometry', 'point']);
-
-  const firstPoliceDistrict = getField(rec, ['first police district', 'police district', 'police_district']);
-  const firstAnalysisNeighborhood = getField(rec, ['first analysis neighborhood', 'analysis neighborhood', 'analysis_neighborhood', 'neighborhood']);
-  const firstSupervisorDistrict = getField(rec, ['first supervisor district', 'supervisor district', 'supervisor_district', 'district']);
 
   const dataAsOf = getField(rec, ['data as of', 'data_as_of', 'data asof']);
   const dataLoadedAt = getField(rec, ['data loaded at', 'data_loaded_at', 'loaded at']);
@@ -91,16 +67,6 @@ function mapLargeVehicle (rec) {
     wasVehicleInAudit: toBoolean(wasVehicleInAudit) ?? false,
     licensePlateNumber: licensePlateNumber ? String(licensePlateNumber) : null,
     licensePlateState: licensePlateState ? String(licensePlateState) : null,
-    vehicleMake: vehicleMake ? String(vehicleMake) : null,
-    vehicleModel: vehicleModel ? String(vehicleModel) : null,
-    vehicleColor: vehicleColor ? String(vehicleColor) : null,
-    firstLocationRaw: firstLocationRaw ?? null,
-    firstLocationLongitude: toDecimal(firstLocationLongitude),
-    firstLocationLatitude: toDecimal(firstLocationLatitude),
-    firstLocation: firstLocation ?? null,
-    firstPoliceDistrict: firstPoliceDistrict ? String(firstPoliceDistrict) : null,
-    firstAnalysisNeighborhood: firstAnalysisNeighborhood ? String(firstAnalysisNeighborhood) : null,
-    firstSupervisorDistrict: firstSupervisorDistrict ? String(firstSupervisorDistrict) : null,
     dataAsOf: toDate(dataAsOf) || now,
     dataLoadedAt: toDate(dataLoadedAt) || now
   };
@@ -145,16 +111,6 @@ async function upsertLargeVehicle (data) {
     wasVehicleInAudit: data.wasVehicleInAudit,
     licensePlateNumber: data.licensePlateNumber,
     licensePlateState: data.licensePlateState,
-    vehicleMake: data.vehicleMake,
-    vehicleModel: data.vehicleModel,
-    vehicleColor: data.vehicleColor,
-    firstLocationRaw: data.firstLocationRaw,
-    firstLocationLongitude: data.firstLocationLongitude,
-    firstLocationLatitude: data.firstLocationLatitude,
-    firstLocation: data.firstLocation,
-    firstPoliceDistrict: data.firstPoliceDistrict,
-    firstAnalysisNeighborhood: data.firstAnalysisNeighborhood,
-    firstSupervisorDistrict: data.firstSupervisorDistrict,
     dataAsOf: data.dataAsOf,
     dataLoadedAt: data.dataLoadedAt
   };
