@@ -33,7 +33,7 @@ function Search () {
                 <Stack>
                   <Text fw='600'>If the number is correct, you may still qualify — submit an appeal or talk to someone from our outreach team.</Text>
                   <Button component={Link} to='/'>Submit an appeal</Button>
-                  <Button component={Link} to='/'>Find support team</Button>
+                  <Button variant='secondary' component={Link} to='/'>Find support team</Button>
                 </Stack>
               </Card>
             </Stack>}

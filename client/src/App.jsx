@@ -48,7 +48,7 @@ function App () {
                 <Header opened={opened} close={close} toggle={toggle} />
               </AppShell.Header>
               <AppShell.Navbar />
-              <AppShell.Main px={0} mih='calc(100dvh - 228px)'>
+              <AppShell.Main px={0} mih='calc(100dvh - 148px)'>
                 <Routes>
                   <Route
                     path='*'
@@ -75,7 +75,7 @@ function App () {
                   />
                 </Routes>
               </AppShell.Main>
-              <AppShell.Footer pos='relative' h={228} bd='none' bg='var(--mantine-color-light-background)'>
+              <AppShell.Footer pos='relative' h='148px' bd='none' bg='var(--mantine-color-light-background)'>
                 <Footer />
               </AppShell.Footer>
             </AppShell>

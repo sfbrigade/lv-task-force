@@ -1,0 +1,6 @@
+.root {
+  &[data-variant='secondary'] {
+    background-color: #E4E7EE;
+    color: var(--mantine-color-text-primary);
+  }
+}

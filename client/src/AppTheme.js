@@ -1,4 +1,6 @@
-import { createTheme, Card, Container, Text } from '@mantine/core';
+import { createTheme, Button, Card, Container, Text } from '@mantine/core';
+
+import buttonClasses from './Button.module.css';
 
 export const AppTheme = createTheme({
   /** Your theme override here */
@@ -22,12 +24,24 @@ export const AppTheme = createTheme({
       },
     }
   },
+  radius: {
+    md: '.75rem'
+  },
+  defaultRadius: 'md',
   components: {
+    Button: Button.extend({
+      classNames: buttonClasses,
+      defaultProps: {
+        color: 'dark',
+        size: 'md',
+        variant: 'filled',
+        fz: 'sm'
+      }
+    }),
     Card: Card.extend({
       defaultProps: {
         bg: '#F3F4F7',
         p: '1.5rem 1.25rem',
-        radius: 'md'
       }
     }),
     Container: Container.extend({
