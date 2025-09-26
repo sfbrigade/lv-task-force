@@ -11,7 +11,7 @@ function Search () {
     enabled: !!licensePlateNumber,
     queryKey: ['licensePlateNumber', licensePlateNumber],
     queryFn: async () => {
-      const response = await fetch(`/api/largevehicles?search=${licensePlateNumber}`);
+      const response = await fetch(`/api/largevehicles/eligibility?search=${licensePlateNumber}`);
       return response.json();
     },
   });
@@ -24,7 +24,7 @@ function Search () {
       <Container>
         <Stack>
           <Text fw='600'><Text c='var(--mantine-color-text-secondary)' span>License plate:</Text> {licensePlateNumber.toUpperCase().trim()}</Text>
-          {query.data?.length === 0 &&
+          {!query.isPending && !query.data &&
             <Stack>
               <Title c='var(--mantine-color-text-danger)' order={2}>We couldn’t find your vehicle in the system</Title>
               <Text fw='600'>Please double-check the license plate number you entered.</Text>
@@ -37,7 +37,7 @@ function Search () {
                 </Stack>
               </Card>
             </Stack>}
-          {query.data?.length > 0 &&
+          {!query.isPending && query.data &&
             <Stack>
               <Title c='var(--mantine-color-text-success)' order={2}>Good news! Your vehicle is in the system</Title>
               <Text fw='600'>You may qualify for a Large Vehicle Permit. We’ll guide you through the next steps.</Text>
