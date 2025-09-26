@@ -31,17 +31,16 @@ function Search () {
               <Button component={Link} to='/'>Re-enter license plate</Button>
               <Card>
                 <Stack>
-                  <Text fw='600'>If the number is correct, you may still qualify — submit an appeal or talk to someone from our outreach team.</Text>
-                  <Button component={Link} to='/'>Submit an appeal</Button>
-                  <Button variant='secondary' component={Link} to='/'>Find support team</Button>
+                  <Text fw='600'>If the number is correct, you may still qualify — to submit an appeal, attend a Community Event for help.</Text>
+                  <Button component={Link} to='https://media.api.sf.gov/documents/Large_Vehicle_Program_Community_Events_-_09.23.25_-_FINAL.pdf'>Find a Community Event</Button>
                 </Stack>
               </Card>
             </Stack>}
           {!query.isPending && query.data &&
             <Stack>
               <Title c='var(--mantine-color-text-success)' order={2}>Good news! Your vehicle is in the system</Title>
-              <Text fw='600'>You may qualify for a Large Vehicle Permit. We’ll guide you through the next steps.</Text>
-              <Button component={Link} to='/'>See next steps</Button>
+              <Text fw='600'>You may qualify for a Large Vehicle Permit. Attend an upcoming Community Event to apply.</Text>
+              <Button component={Link} to='https://media.api.sf.gov/documents/Large_Vehicle_Program_Community_Events_-_09.23.25_-_FINAL.pdf'>Find a Community Event</Button>
             </Stack>}
         </Stack>
       </Container>

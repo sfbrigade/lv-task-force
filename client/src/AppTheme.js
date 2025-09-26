@@ -41,11 +41,11 @@ export const AppTheme = createTheme({
     Card: Card.extend({
       defaultProps: {
         bg: '#F3F4F7',
-        p: '1.5rem 1.25rem',
       }
     }),
     Container: Container.extend({
       defaultProps: {
+        p: '2rem 1rem 2.25.rem',
         size: '480px'
       }
     }),
