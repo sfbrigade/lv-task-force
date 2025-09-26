@@ -22,6 +22,8 @@ import Register from './Register';
 import Search from './Search';
 import UsersRoutes from './Users/UsersRoutes';
 import Footer from './Footer';
+import Privacy from './Privacy';
+import Disclaimer from './Disclaimer';
 
 const AdminRoutes = lazy(() => import('./Admin/AdminRoutes'));
 
@@ -48,7 +50,7 @@ function App () {
                 <Header opened={opened} close={close} toggle={toggle} />
               </AppShell.Header>
               <AppShell.Navbar />
-              <AppShell.Main px={0} mih='calc(100dvh - 148px)'>
+              <AppShell.Main px={0} pb='2.25rem' mih='calc(100dvh - 12.875rem)'>
                 <Routes>
                   <Route
                     path='*'
@@ -57,6 +59,8 @@ function App () {
                         <Routes>
                           <Route path='/' element={<Home />} />
                           <Route path='/search' element={<Search />} />
+                          <Route path='/privacy' element={<Privacy />} />
+                          <Route path='/disclaimer' element={<Disclaimer />} />
                           <Route path='/login' element={<Login />} />
                           <Route path='/passwords/*' element={<PasswordsRoutes />} />
                           <Route path='/invites/*' element={<InvitesRoutes />} />
@@ -75,7 +79,7 @@ function App () {
                   />
                 </Routes>
               </AppShell.Main>
-              <AppShell.Footer pos='relative' h='148px' bd='none' bg='var(--mantine-color-light-background)'>
+              <AppShell.Footer pos='relative' h='12.875rem' bd='none' bg='var(--mantine-color-light-background)'>
                 <Footer />
               </AppShell.Footer>
             </AppShell>
