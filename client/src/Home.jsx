@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router';
-import { Container, Stack, Title, TextInput, Button } from '@mantine/core';
+import { useNavigate, Link } from 'react-router';
+import { Card, Container, Stack, Title, TextInput, Button, Text } from '@mantine/core';
 import { Head } from '@unhead/react';
 
 function Home () {
@@ -18,13 +18,22 @@ function Home () {
         <title>Home</title>
       </Head>
       <Container>
-        <Title mb='lg'>Home</Title>
-        <form onSubmit={onSubmit}>
-          <Stack>
-            <TextInput label='License Plate Number' name='licensePlateNumber' value={licensePlateNumber} onChange={(e) => setLicensePlateNumber(e.target.value)} />
-            <Button type='submit'>Search</Button>
-          </Stack>
-        </form>
+        <Title order={1} mb='lg'>Is your vehicle in the permit system?</Title>
+        <Card mb='md'>
+          <form onSubmit={onSubmit}>
+            <Stack>
+              <Text fz='lg' fw='600'>Enter your license plate number to see if you qualify for a permit.</Text>
+              <TextInput name='licensePlateNumber' value={licensePlateNumber} onChange={(e) => setLicensePlateNumber(e.target.value)} />
+              <Button type='submit'>Check Vehicle</Button>
+            </Stack>
+          </form>
+        </Card>
+        <Text mb='xl' fz='sm' c='var(--mantine-color-text-secondary)'>This tool lets you check if your vehicle was recorded in the City’s Large Vehicle database as of May 31, 2025.</Text>
+        <Title order={2}>Don’t have a license plate?</Title>
+        <Stack>
+          <Text fw='600'>If you don’t have a plate, or don’t know what to enter, contact a support team for help.</Text>
+          <Button component={Link} to='/'>Find support team</Button>
+        </Stack>
       </Container>
     </>
   );
