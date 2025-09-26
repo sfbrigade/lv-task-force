@@ -36,7 +36,7 @@ export default async function (fastify, opts) {
       const licensePlateNumber = body.match(/^[A-Z0-9\- ]{1,10}$/i)?.[0].toUpperCase();
       const twiml = new twilio.twiml.MessagingResponse();
       if (licensePlateNumber) {
-        const record = await fastify.prisma.largeVehicle.findFirst({ where: { licensePlateNumber } });
+        const record = await fastify.prisma.largeVehicle.findFirst({ where: { licensePlateNumber, wasVehicleInAudit: true } });
         if (record) {
           twiml.message(`License plate: ${licensePlateNumber}. Good news! Your vehicle is in the system. You may qualify for a Large Vehicle Refuge Permit.`);
         } else {
