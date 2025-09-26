@@ -17,6 +17,7 @@ export default async function (fastify, opts) {
         [StatusCodes.FORBIDDEN]: z.null(),
       }
     },
+    onRequest: fastify.requireAdmin,
   },
   async function (request, reply) {
     const { page = '1', perPage = '25', search } = request.query;
