@@ -12,7 +12,7 @@ import './App.css';
 import AuthContextProvider from './AuthContextProvider';
 import { useStaticContext } from './StaticContext';
 import AppRedirects from './AppRedirects';
-import AppTheme from './AppTheme';
+import { AppTheme, AppCSSVariablesResolver } from './AppTheme';
 import Header from './Header';
 import Home from './Home';
 import Login from './Login';
@@ -21,6 +21,7 @@ import PasswordsRoutes from './Passwords/PasswordsRoutes';
 import Register from './Register';
 import Search from './Search';
 import UsersRoutes from './Users/UsersRoutes';
+import Footer from './Footer';
 
 const AdminRoutes = lazy(() => import('./Admin/AdminRoutes'));
 
@@ -35,7 +36,7 @@ function App () {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <MantineProvider theme={AppTheme}>
+      <MantineProvider theme={AppTheme} cssVariablesResolver={AppCSSVariablesResolver}>
         <ModalsProvider>
           <AuthContextProvider>
             <AppShell
@@ -47,7 +48,7 @@ function App () {
                 <Header opened={opened} close={close} toggle={toggle} />
               </AppShell.Header>
               <AppShell.Navbar />
-              <AppShell.Main px={0}>
+              <AppShell.Main px={0} mih='calc(100dvh - 148px)'>
                 <Routes>
                   <Route
                     path='*'
@@ -74,6 +75,9 @@ function App () {
                   />
                 </Routes>
               </AppShell.Main>
+              <AppShell.Footer pos='relative' h='148px' bd='none' bg='var(--mantine-color-light-background)'>
+                <Footer />
+              </AppShell.Footer>
             </AppShell>
           </AuthContextProvider>
         </ModalsProvider>

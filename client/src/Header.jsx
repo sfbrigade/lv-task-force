@@ -1,11 +1,13 @@
 import { useEffect } from 'react';
 import { useNavigate, Link, NavLink } from 'react-router';
 import { StatusCodes } from 'http-status-codes';
-import { Anchor, Avatar, Burger, Container, Group, Menu, Title } from '@mantine/core';
+import { Anchor, Avatar, Container, Group, Menu, Text, Title } from '@mantine/core';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
 
 import Api from './Api';
 import { useAuthContext } from './AuthContext';
+
+import styles from './Header.module.css';
 
 function Header ({ opened, close, toggle }) {
   const navigate = useNavigate();
@@ -38,13 +40,11 @@ function Header ({ opened, close, toggle }) {
   return (
     <Container h='100%'>
       <Group h='100%' align='center' justify='space-between'>
-        <Link to='/' onClick={close}>
-          <Title size='xl'>LV Task Force</Title>
+        <Link className={styles.home} to='/' onClick={close}>
+          <Title className={styles.home__title}>Vehicle Permit Check</Title>
+          <Text className={styles.home__subtitle}>A pilot service by SF Civic Tech</Text>
         </Link>
         <Group visibleFrom='sm' gap='xl'>
-          <Anchor component={NavLink} aria-current='page' to='/' onClick={close}>
-            Home
-          </Anchor>
           {user && (
             <>
               {user.isAdmin && (
@@ -72,13 +72,7 @@ function Header ({ opened, close, toggle }) {
               </Anchor>
             </>
           )}
-          {!user && (
-            <Anchor component={NavLink} to='/login' onClick={close}>
-              Log in
-            </Anchor>
-          )}
         </Group>
-        <Burger opened={opened} onClick={toggle} hiddenFrom='sm' size='sm' />
       </Group>
     </Container>
   );

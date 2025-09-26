@@ -1,0 +1,22 @@
+.home {
+  color: black;
+  &:hover {
+    text-decoration: none;
+  }
+  &:visited {
+    color: black;
+  }
+}
+
+.home__title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.home__subtitle {
+  color: var(--mantine-color-text-tertiary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+}
