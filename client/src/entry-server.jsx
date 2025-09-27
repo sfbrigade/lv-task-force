@@ -1,4 +1,6 @@
 import ReactDOMServer from 'react-dom/server';
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
 import { StaticRouter } from 'react-router';
 import { createHead, UnheadProvider, renderSSRHead } from '@unhead/react/server';
 
@@ -7,7 +9,23 @@ import StaticContextProvider from './StaticContextProvider';
 import { handleRedirects } from './AppRedirectsConfig';
 import App from './App';
 
+import translation from '../../locales/en/translation.json';
+
 export async function render (request, reply, staticContext) {
+  i18n
+    .use(initReactI18next)
+    .init({
+      lng: 'en',
+      interpolation: {
+        escapeValue: false,
+      },
+      resources: {
+        en: {
+          translation
+        }
+      }
+    });
+
   const { url: location } = request;
   const path = request.urlData('path');
   const isRedirected = handleRedirects(request, location, path, (to, state) => {
