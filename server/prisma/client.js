@@ -5,6 +5,13 @@ const prisma = new PrismaClient({
 }).$extends({
   name: 'paginate',
   model: {
+    largeVehicle: {
+      async isEligible ({ licensePlateNumber }) {
+        const context = Prisma.getExtensionContext(this);
+        const count = await context.count({ where: { licensePlateNumber, wasVehicleInAudit: true } });
+        return count > 0;
+      }
+    },
     $allModels: {
       async paginate ({ page, perPage, include, ...options }) {
         const take = parseInt(perPage, 10);
