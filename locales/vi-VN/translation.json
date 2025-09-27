@@ -1,0 +1,84 @@
+{
+  "header": {
+    "title": "Kiểm tra Giấy phép Xe",
+    "subtitle": "Dịch vụ thí điểm của SF Civic Tech",
+    "menu": {
+      "admin": "Quản trị",
+      "invites": "Lời mời",
+      "users": "Người dùng"
+    },
+    "helloPrefix": "Xin chào",
+    "logout": "Đăng xuất"
+  },
+  "footer": {
+    "providedBy": "Cung cấp bởi",
+    "partnershipLine1": "phối hợp với",
+    "partnershipLine2": "Thành phố và Quận San Francisco",
+    "permitProgramSite": "Trang chương trình giấy phép",
+    "privacyPolicy": "Chính sách quyền riêng tư",
+    "disclaimer": "Tuyên bố miễn trừ trách nhiệm"
+  },
+  "home": {
+    "metaTitle": "Trang chủ",
+    "permitProgramLink": "Tới Trang Chương trình Giấy phép →",
+    "heading": "Xe của bạn có trong hệ thống giấy phép không?",
+    "instructions": "Nhập số biển số để xem bạn có đủ điều kiện xin giấy phép không.",
+    "licensePlatePlaceholder": "vd: 1ABC234",
+    "checkVehicleButton": "Kiểm tra xe",
+    "databaseNote": "Công cụ này cho phép bạn kiểm tra xem xe của bạn có được ghi nhận trong cơ sở dữ liệu Xe Cỡ Lớn của Thành phố tính đến ngày 31/05/2025 hay không.",
+    "noPlateHeading": "Không có biển số?",
+    "noPlateDescription": "Nếu bạn không có biển số hoặc không biết nhập gì, hãy tham dự Sự kiện Cộng đồng để được hỗ trợ.",
+    "findCommunityEvent": "Tìm Sự kiện Cộng đồng"
+  },
+  "search": {
+    "metaTitle": "Tìm kiếm",
+    "licensePlateLabel": "Biển số:",
+    "notFoundTitle": "Chúng tôi không tìm thấy xe của bạn trong hệ thống",
+    "notFoundInstruction": "Vui lòng kiểm tra lại số biển số mà bạn đã nhập.",
+    "reenterButton": "Nhập lại biển số",
+    "appealCardText": "Nếu số là chính xác, bạn vẫn có thể đủ điều kiện — hãy nộp đơn kháng nghị hoặc tham dự Sự kiện Cộng đồng để được trợ giúp.",
+    "submitAppeal": "Nộp đơn Kháng nghị",
+    "findCommunityEvent": "Tìm Sự kiện Cộng đồng",
+    "foundTitle": "Tin tốt! Xe của bạn có trong hệ thống",
+    "foundInstruction": "Bạn có thể đủ điều kiện xin Giấy phép Xe Cỡ Lớn. Hãy tham dự Sự kiện Cộng đồng sắp diễn ra để nộp đơn."
+  },
+  "privacy": {
+    "metaTitle": "Chính sách quyền riêng tư",
+    "title": "Chính sách quyền riêng tư",
+    "intro": "Trình bày các loại thông tin chúng tôi thu thập khi bạn truy cập trang này và các biện pháp chúng tôi thực hiện để bảo vệ chúng.",
+    "generalPolicy": "Chính sách chung",
+    "infoCollectionTitle": "Thu thập thông tin",
+    "infoCollectionP1": "Chúng tôi không thu thập thông tin cá nhân về bạn khi bạn truy cập trang web của chúng tôi.",
+    "infoCollectionP2": "Chúng tôi thu thập một lượng thông tin hạn chế không định danh cá nhân do trình duyệt của bạn tự động cung cấp mỗi khi bạn truy cập một trang web. Thông tin này bao gồm địa chỉ Internet của máy tính hoặc mạng của bạn, ngày, giờ và trang bạn truy cập trên trang của chúng tôi, trình duyệt và hệ điều hành của bạn, và trang giới thiệu (trang web cuối cùng bạn truy cập trước khi nhấp vào liên kết đến trang của chúng tôi).",
+    "infoCollectionP3": "Chúng tôi sử dụng thông tin ẩn danh, tổng hợp từ tất cả khách truy cập để đo lường hiệu năng máy chủ và cải thiện nội dung trang web.",
+    "infoYouProvideTitle": "Thông tin bạn cung cấp",
+    "infoYouProvideP1": "Khi bạn điền vào biểu mẫu, thông tin bạn gửi sẽ được sử dụng theo ngữ cảnh của biểu mẫu đó.",
+    "infoYouProvideP2": "Chúng tôi áp dụng các biện pháp bảo mật hợp lý để bảo vệ thông tin của bạn. Tuy nhiên, không có việc truyền dữ liệu nào qua internet là an toàn 100%, và chúng tôi không thể đảm bảo an toàn tuyệt đối.",
+    "infoYouProvideP3": "Chúng tôi không cung cấp, chia sẻ, bán, cho thuê hoặc chuyển giao bất kỳ thông tin cá nhân nào cho bên thứ ba.",
+    "siteAnalyticsTitle": "Phân tích trang web",
+    "siteAnalyticsP1": "Chúng tôi sử dụng công cụ tên là \"PostHog\" để hiểu cách khách truy cập tương tác với trang web nhằm cải thiện trang. Chúng tôi không thu thập thông tin cá nhân bằng PostHog. PostHog không sử dụng cookie.",
+    "linksTitle": "Liên kết",
+    "linksP1": "Trang web của chúng tôi có các liên kết tới các trang của bên thứ ba. Chúng tôi không chịu trách nhiệm về thực tiễn quyền riêng tư của họ và khuyến khích bạn xem chính sách của họ.",
+    "siteSecurityTitle": "Bảo mật trang web",
+    "siteSecurityP1": "Chúng tôi giám sát lưu lượng mạng để xác định các nỗ lực trái phép nhằm tải lên hoặc thay đổi thông tin hoặc gây hại cho trang web. Bất kỳ ai sử dụng trang web này đều đồng ý rõ ràng với việc giám sát đó.",
+    "siteSecurityP2": "Chúng tôi áp dụng các biện pháp bảo mật phù hợp để bảo vệ chống truy cập trái phép, thay đổi hoặc phá hủy dữ liệu.",
+    "policyChangesTitle": "Thay đổi chính sách",
+    "policyChangesP1": "Chúng tôi có thể cập nhật Chính sách quyền riêng tư này theo thời gian. Chúng tôi mong rằng hầu hết các thay đổi là nhỏ, nhưng chúng tôi sẽ đăng tải các thay đổi đó khi xảy ra."
+  },
+  "disclaimer": {
+    "metaTitle": "Tuyên bố miễn trừ trách nhiệm",
+    "title": "Tuyên bố miễn trừ trách nhiệm",
+    "subtitle": "Điều khoản sử dụng, trách nhiệm và khả năng tương thích trình duyệt.",
+    "liabilityTitle": "Trách nhiệm",
+    "liabilityText": "Trong bất kỳ trường hợp nào, SF Civic Tech cũng không chịu trách nhiệm cho bất kỳ hành động hay thiếu sót nào do dựa vào bất kỳ thông tin nào có trong tài liệu này, bất kể nguồn gốc, cũng như không chịu trách nhiệm cho bất kỳ hệ quả nào từ việc dựa vào đó.",
+    "browserTitle": "Khả năng tương thích trình duyệt",
+    "browserText": "SF Civic Tech hỗ trợ các phiên bản mới nhất của Firefox, Chrome và Safari ở chế độ xem chuẩn, cũng như Safari và Chrome trên thiết bị di động."
+  },
+  "lang": {
+    "en": "English",
+    "es": "Español",
+    "zh-Hant": "繁體中文",
+    "fil": "Filipino",
+    "vi-VN": "Tiếng Việt"
+  }
+}

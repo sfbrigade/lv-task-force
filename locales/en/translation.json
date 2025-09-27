@@ -1,0 +1,84 @@
+{
+  "header": {
+    "title": "Vehicle Permit Check",
+    "subtitle": "A pilot service by SF Civic Tech",
+    "menu": {
+      "admin": "Admin",
+      "invites": "Invites",
+      "users": "Users"
+    },
+    "helloPrefix": "Hello",
+    "logout": "Log out"
+  },
+  "footer": {
+    "providedBy": "Provided by",
+    "partnershipLine1": "in partnership with",
+    "partnershipLine2": "the City and County of San Francisco",
+    "permitProgramSite": "Permit program site",
+    "privacyPolicy": "Privacy Policy",
+    "disclaimer": "Disclaimer"
+  },
+  "home": {
+    "metaTitle": "Home",
+    "permitProgramLink": "To Permit Program Site →",
+    "heading": "Is your vehicle in the permit system?",
+    "instructions": "Enter your license plate number to see if you qualify for a permit.",
+    "licensePlatePlaceholder": "e.g. 1ABC234",
+    "checkVehicleButton": "Check Vehicle",
+    "databaseNote": "This tool lets you check if your vehicle was recorded in the City’s Large Vehicle database as of May 31, 2025.",
+    "noPlateHeading": "Don’t have a license plate?",
+    "noPlateDescription": "If you don’t have a plate, or don’t know what to enter, attend a Community Event for help.",
+    "findCommunityEvent": "Find a Community Event"
+  },
+  "search": {
+    "metaTitle": "Search",
+    "licensePlateLabel": "License plate:",
+    "notFoundTitle": "We couldn’t find your vehicle in the system",
+    "notFoundInstruction": "Please double-check the license plate number you entered.",
+    "reenterButton": "Re-enter license plate",
+    "appealCardText": "If the number is correct, you may still qualify — submit an appeal or attend a Community Event for help.",
+    "submitAppeal": "Submit an Appeal",
+    "findCommunityEvent": "Find a Community Event",
+    "foundTitle": "Good news! Your vehicle is in the system",
+    "foundInstruction": "You may qualify for a Large Vehicle Permit. Attend an upcoming Community Event to apply."
+  },
+  "privacy": {
+    "metaTitle": "Privacy Policy",
+    "title": "Privacy Policy",
+    "intro": "Outlines the types of information we gather when you visit this site, and the steps we take to safeguard it.",
+    "generalPolicy": "General policy",
+    "infoCollectionTitle": "Information collection",
+    "infoCollectionP1": "We do not collect personal information about you when you visit our website.",
+    "infoCollectionP2": "We collect limited non-personally identifying information your browser makes available automatically whenever you visit a website. This information includes the Internet Address of your computer or network, the date, time, and page you visited on our site, your browser and operating system, and the referring page (the last webpage you visited before clicking on a link to our site).",
+    "infoCollectionP3": "We use this aggregated anonymized information from all of our visitors to measure server performance and improve the content of our site.",
+    "infoYouProvideTitle": "Information you provide",
+    "infoYouProvideP1": "When you fill out a form, the information you submit will be used in the context of that form.",
+    "infoYouProvideP2": "We implement reasonable security measures to protect your information. However, no data transmission over the internet is 100% secure, and we cannot guarantee absolute security.",
+    "infoYouProvideP3": "We do not give, share, sell, rent or transfer any personal information to a third party.",
+    "siteAnalyticsTitle": "Site analytics",
+    "siteAnalyticsP1": "We use a tool called \"PostHog\" to help understand how visitors interact with our website so that we can improve the website. We do not collect personal information using PostHog. No cookies are used by PostHog.",
+    "linksTitle": "Links",
+    "linksP1": "Our website contains links to third-party sites. We are not responsible for their privacy practices and encourage you to review their policies.",
+    "siteSecurityTitle": "Site security",
+    "siteSecurityP1": "We monitor network traffic to identify unauthorized attempts to upload or change information or to otherwise cause damage to the site. Anyone using this website expressly consents to such monitoring.",
+    "siteSecurityP2": "We take appropriate security measures to protect unauthorized access, alteration or destruction of data.",
+    "policyChangesTitle": "Policy changes",
+    "policyChangesP1": "We may update this Privacy Policy from time to time. We expect most such changes to be minor, but we will post those changes as they occur."
+  },
+  "disclaimer": {
+    "metaTitle": "Disclaimer",
+    "title": "Disclaimer",
+    "subtitle": "Terms of use, liability and browser compatibility.",
+    "liabilityTitle": "Liability",
+    "liabilityText": "Under no circumstances shall SF Civic Tech be liable for any actions taken or omissions made from reliance on any information contained herein from whatever source nor shall SF Civic Tech be liable for any other consequences from any such reliance.",
+    "browserTitle": "Browser compatibility",
+    "browserText": "SF Civic Tech supports the latest versions of Firefox, Chrome, and Safari in standard view, as well as Safari and Chrome for mobile."
+  },
+  "lang": {
+    "en": "English",
+    "es": "Español",
+    "zh-Hant": "繁體中文",
+    "fil": "Filipino",
+    "vi-VN": "Tiếng Việt"
+  }
+}

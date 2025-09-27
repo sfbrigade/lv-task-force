@@ -1,0 +1,84 @@
+{
+  "header": {
+    "title": "Pagsuri ng Permit ng Sasakyan",
+    "subtitle": "Isang pilotong serbisyo ng SF Civic Tech",
+    "menu": {
+      "admin": "Admin",
+      "invites": "Imbitasyon",
+      "users": "Mga Gumagamit"
+    },
+    "helloPrefix": "Kumusta",
+    "logout": "Mag-log out"
+  },
+  "footer": {
+    "providedBy": "Ibinigay ng",
+    "partnershipLine1": "sa pakikipagtulungan sa",
+    "partnershipLine2": "Lungsod at County ng San Francisco",
+    "permitProgramSite": "Site ng programa ng permit",
+    "privacyPolicy": "Patakaran sa Privacy",
+    "disclaimer": "Paunawa"
+  },
+  "home": {
+    "metaTitle": "Home",
+    "permitProgramLink": "Pumunta sa Site ng Programa ng Permit →",
+    "heading": "Nasa sistema ba ng permit ang iyong sasakyan?",
+    "instructions": "Ilagay ang numero ng iyong plaka upang makita kung kwalipikado ka para sa permit.",
+    "licensePlatePlaceholder": "hal. 1ABC234",
+    "checkVehicleButton": "Suriin ang Sasakyan",
+    "databaseNote": "Tinutulungan ka ng tool na ito na tingnan kung ang iyong sasakyan ay naitala sa Large Vehicle database ng Lungsod noong Mayo 31, 2025.",
+    "noPlateHeading": "Walang plaka?",
+    "noPlateDescription": "Kung wala kang plaka, o hindi mo alam ang ilalagay, dumalo sa isang Community Event para sa tulong.",
+    "findCommunityEvent": "Maghanap ng Community Event"
+  },
+  "search": {
+    "metaTitle": "Paghahanap",
+    "licensePlateLabel": "Plaka:",
+    "notFoundTitle": "Hindi namin nahanap ang iyong sasakyan sa sistema",
+    "notFoundInstruction": "Pakisuri muli ang numerong plaka na iyong inilagay.",
+    "reenterButton": "Ilagay muli ang plaka",
+    "appealCardText": "Kung tama ang numero, maaari ka pa ring kwalipikado — magsumite ng apela o dumalo sa Community Event para sa tulong.",
+    "submitAppeal": "Magsumite ng Apela",
+    "findCommunityEvent": "Maghanap ng Community Event",
+    "foundTitle": "Magandang balita! Ang iyong sasakyan ay nasa sistema",
+    "foundInstruction": "Maaaring kwalipikado ka para sa Large Vehicle Permit. Dumalo sa nalalapit na Community Event upang mag-apply."
+  },
+  "privacy": {
+    "metaTitle": "Patakaran sa Privacy",
+    "title": "Patakaran sa Privacy",
+    "intro": "Ipinapaliwanag ang mga uri ng impormasyong kinokolekta namin kapag binisita mo ang site na ito, at ang mga hakbang na ginagawa namin upang ito'y maprotektahan.",
+    "generalPolicy": "Pangkalahatang patakaran",
+    "infoCollectionTitle": "Pagkolekta ng impormasyon",
+    "infoCollectionP1": "Hindi kami nangongolekta ng personal na impormasyon tungkol sa iyo kapag binisita mo ang aming website.",
+    "infoCollectionP2": "Nangongolekta kami ng limitadong impormasyong hindi tumutukoy sa iyo na awtomatikong ibinibigay ng iyong browser tuwing bumibisita ka sa isang website. Kabilang dito ang IP address ng iyong computer o network, ang petsa, oras, at pahinang binisita mo sa aming site, ang iyong browser at operating system, at ang huling pahina bago ka mag-click papunta sa aming site.",
+    "infoCollectionP3": "Ginagamit namin ang pinagsama-samang anonymized na impormasyong ito mula sa lahat ng bisita upang masukat ang performance ng server at mapabuti ang laman ng site.",
+    "infoYouProvideTitle": "Impormasyong ibinibigay mo",
+    "infoYouProvideP1": "Kapag nag-fill out ka ng form, ang impormasyong isusumite mo ay gagamitin ayon sa konteksto ng form na iyon.",
+    "infoYouProvideP2": "Nagpapatupad kami ng makatwirang mga hakbang sa seguridad upang protektahan ang iyong impormasyon. Gayunman, walang 100% na ligtas na paglipat ng datos sa internet at hindi namin magagarantiyahan ang ganap na seguridad.",
+    "infoYouProvideP3": "Hindi namin ibinibigay, ibinabahagi, ibinebenta, inuupa o inililipat ang anumang personal na impormasyon sa ikatlong partido.",
+    "siteAnalyticsTitle": "Analytics ng site",
+    "siteAnalyticsP1": "Gumagamit kami ng tool na tinatawag na \"PostHog\" upang maintindihan kung paano nakikipag-ugnayan ang mga bisita sa aming website para mapabuti namin ito. Hindi kami nangongolekta ng personal na impormasyon gamit ang PostHog. Walang cookies na ginagamit ng PostHog.",
+    "linksTitle": "Mga link",
+    "linksP1": "May mga link sa aming website papunta sa mga third-party na site. Hindi kami responsable sa kanilang mga gawi sa privacy at hinihikayat ka naming basahin ang kanilang mga patakaran.",
+    "siteSecurityTitle": "Seguridad ng site",
+    "siteSecurityP1": "Minomonitor namin ang trapiko ng network upang matukoy ang mga hindi awtorisadong pagtatangka na mag-upload o baguhin ang impormasyon o anumang makapinsala sa site. Ang sinumang gumagamit ng website na ito ay hayagang sumasang-ayon sa nasabing pag-monitor.",
+    "siteSecurityP2": "Gumagamit kami ng angkop na mga hakbang sa seguridad upang protektahan laban sa hindi awtorisadong pag-access, pagbabago, o pagkasira ng datos.",
+    "policyChangesTitle": "Mga pagbabago sa patakaran",
+    "policyChangesP1": "Maaari naming i-update ang Patakaran sa Privacy na ito paminsan-minsan. Inaasahan naming karamihan sa mga pagbabagong ito ay minor, at ipo-post namin ang mga ito kapag naganap."
+  },
+  "disclaimer": {
+    "metaTitle": "Paunawa",
+    "title": "Paunawa",
+    "subtitle": "Mga tuntunin ng paggamit, pananagutan, at pagiging tugma ng browser.",
+    "liabilityTitle": "Pananagutan",
+    "liabilityText": "Sa anumang pagkakataon, hindi mananagot ang SF Civic Tech para sa anumang aksyon o pagkukulang na bunga ng pag-asa sa anumang impormasyong nilalaman dito anuman ang pinagmulan, at hindi rin mananagot sa anumang kahihinatnan mula sa gayong pag-asa.",
+    "browserTitle": "Pagiging tugma ng browser",
+    "browserText": "Sinusuportahan ng SF Civic Tech ang pinakabagong bersyon ng Firefox, Chrome, at Safari sa karaniwang view, pati na rin ang Safari at Chrome sa mobile."
+  },
+  "lang": {
+    "en": "English",
+    "es": "Español",
+    "zh-Hant": "繁體中文",
+    "fil": "Filipino",
+    "vi-VN": "Tiếng Việt"
+  }
+}
