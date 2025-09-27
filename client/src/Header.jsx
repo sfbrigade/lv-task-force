@@ -38,7 +38,7 @@ function Header ({ opened, close, toggle }) {
   }
 
   return (
-    <Container h='100%'>
+    <Container h='100%' py='0'>
       <Group h='100%' align='center' justify='space-between'>
         <Link className={styles.home} to='/' onClick={close}>
           <Title className={styles.home__title}>Vehicle Permit Check</Title>

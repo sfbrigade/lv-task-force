@@ -45,7 +45,7 @@ export const AppTheme = createTheme({
     }),
     Container: Container.extend({
       defaultProps: {
-        p: '2rem 1rem 2.25.rem',
+        p: '2rem 1rem 2.25rem',
         size: '480px'
       }
     }),

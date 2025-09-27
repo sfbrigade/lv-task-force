@@ -50,7 +50,7 @@ function App () {
                 <Header opened={opened} close={close} toggle={toggle} />
               </AppShell.Header>
               <AppShell.Navbar />
-              <AppShell.Main px={0} pb='2.25rem' mih='calc(100dvh - 12.875rem)'>
+              <AppShell.Main p='3.75rem 0 2.25rem' mih='calc(100dvh - 12.875rem)'>
                 <Routes>
                   <Route
                     path='*'
