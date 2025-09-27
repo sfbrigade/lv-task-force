@@ -12,7 +12,7 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      '/api': {
+      '^/(api|locales)': {
         target: 'http://0.0.0.0:3000',
       }
     }

@@ -7,6 +7,7 @@ import { ModalsProvider } from '@mantine/modals';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { useHead } from '@unhead/react';
 
+import './i18n';
 import './App.css';
 
 import AuthContextProvider from './AuthContextProvider';

@@ -2,10 +2,12 @@ import { useState } from 'react';
 import { useNavigate, Link } from 'react-router';
 import { Anchor, Card, Container, FocusTrap, Stack, Title, TextInput, Button, Text } from '@mantine/core';
 import { Head } from '@unhead/react';
+import { useTranslation } from 'react-i18next';
 
 function Home () {
   const navigate = useNavigate();
   const [licensePlateNumber, setLicensePlateNumber] = useState('');
+  const { t } = useTranslation();
 
   function onSubmit (event) {
     event.preventDefault();
@@ -15,27 +17,27 @@ function Home () {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>{t('home.metaTitle')}</title>
       </Head>
       <Container>
-        <Anchor href='https://sf.gov/LVprogram' mb='lg' fw='600' display='block'>To Permit Program Site &rarr;</Anchor>
-        <Title order={1} mb='lg'>Is your vehicle in the permit system?</Title>
+        <Anchor href='https://sf.gov/LVprogram' mb='lg' fw='600' display='block'>{t('home.permitProgramLink')}</Anchor>
+        <Title order={1} mb='lg'>{t('home.heading')}</Title>
         <Card mb='md'>
           <form onSubmit={onSubmit}>
             <Stack>
-              <Text fz='lg' fw='600'>Enter your license plate number to see if you qualify for a permit.</Text>
+              <Text fz='lg' fw='600'>{t('home.instructions')}</Text>
               <FocusTrap>
-                <TextInput name='licensePlateNumber' placeholder='e.g. 1ABC234' value={licensePlateNumber} onChange={(e) => setLicensePlateNumber(e.target.value)} data-autofocus />
+                <TextInput name='licensePlateNumber' placeholder={t('home.licensePlatePlaceholder')} value={licensePlateNumber} onChange={(e) => setLicensePlateNumber(e.target.value)} data-autofocus />
               </FocusTrap>
-              <Button disabled={!licensePlateNumber} type='submit'>Check Vehicle</Button>
+              <Button disabled={!licensePlateNumber} type='submit'>{t('home.checkVehicleButton')}</Button>
             </Stack>
           </form>
         </Card>
-        <Text mb='xl' fz='sm' c='var(--mantine-color-text-secondary)'>This tool lets you check if your vehicle was recorded in the City’s Large Vehicle database as of May 31, 2025.</Text>
-        <Title order={2}>Don’t have a license plate?</Title>
+        <Text mb='xl' fz='sm' c='var(--mantine-color-text-secondary)'>{t('home.databaseNote')}</Text>
+        <Title order={2}>{t('home.noPlateHeading')}</Title>
         <Stack>
-          <Text fw='600'>If you don’t have a plate, or don’t know what to enter, attend a Community Event for help.</Text>
-          <Button component={Link} to='https://media.api.sf.gov/documents/Large_Vehicle_Program_Community_Events_-_09.23.25_-_FINAL.pdf'>Find a Community Event</Button>
+          <Text fw='600'>{t('home.noPlateDescription')}</Text>
+          <Button component={Link} to='https://media.api.sf.gov/documents/Large_Vehicle_Program_Community_Events_-_09.23.25_-_FINAL.pdf'>{t('home.findCommunityEvent')}</Button>
         </Stack>
       </Container>
     </>

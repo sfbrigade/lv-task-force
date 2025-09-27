@@ -2,10 +2,12 @@ import { Container, Stack, Title, Text, Card, Button } from '@mantine/core';
 import { useSearchParams, Link } from 'react-router';
 import { useQuery } from '@tanstack/react-query';
 import { Head } from '@unhead/react';
+import { useTranslation } from 'react-i18next';
 
 function Search () {
   const [searchParams] = useSearchParams();
   const licensePlateNumber = searchParams.get('licensePlateNumber')?.trim() ?? '';
+  const { t } = useTranslation();
 
   const query = useQuery({
     enabled: !!licensePlateNumber,
@@ -19,29 +21,29 @@ function Search () {
   return (
     <>
       <Head>
-        <title>Search</title>
+        <title>{t('search.metaTitle')}</title>
       </Head>
       <Container>
         <Stack>
-          <Text fw='600'><Text c='var(--mantine-color-text-secondary)' span>License plate:</Text> {licensePlateNumber.toUpperCase().trim()}</Text>
+          <Text fw='600'><Text c='var(--mantine-color-text-secondary)' span>{t('search.licensePlateLabel')}</Text> {licensePlateNumber.toUpperCase().trim()}</Text>
           {!query.isPending && !query.data &&
             <Stack>
-              <Title c='var(--mantine-color-text-danger)' order={2}>We couldn’t find your vehicle in the system</Title>
-              <Text fw='600'>Please double-check the license plate number you entered.</Text>
-              <Button component={Link} to='/'>Re-enter license plate</Button>
+              <Title c='var(--mantine-color-text-danger)' order={2}>{t('search.notFoundTitle')}</Title>
+              <Text fw='600'>{t('search.notFoundInstruction')}</Text>
+              <Button component={Link} to='/'>{t('search.reenterButton')}</Button>
               <Card>
                 <Stack>
-                  <Text fw='600'>If the number is correct, you may still qualify — submit an appeal or attend a Community Event for help.</Text>
-                  <Button component={Link} to='https://digital.forms.sf.gov/t/vpMQz4c7Jmus'>Submit an Appeal</Button>
-                  <Button variant='secondary' component={Link} to='https://media.api.sf.gov/documents/Large_Vehicle_Program_Community_Events_-_09.23.25_-_FINAL.pdf'>Find a Community Event</Button>
+                  <Text fw='600'>{t('search.appealCardText')}</Text>
+                  <Button component={Link} to='https://digital.forms.sf.gov/t/vpMQz4c7Jmus'>{t('search.submitAppeal')}</Button>
+                  <Button variant='secondary' component={Link} to='https://media.api.sf.gov/documents/Large_Vehicle_Program_Community_Events_-_09.23.25_-_FINAL.pdf'>{t('search.findCommunityEvent')}</Button>
                 </Stack>
               </Card>
             </Stack>}
           {!query.isPending && query.data &&
             <Stack>
-              <Title c='var(--mantine-color-text-success)' order={2}>Good news! Your vehicle is in the system</Title>
-              <Text fw='600'>You may qualify for a Large Vehicle Permit. Attend an upcoming Community Event to apply.</Text>
-              <Button component={Link} to='https://media.api.sf.gov/documents/Large_Vehicle_Program_Community_Events_-_09.23.25_-_FINAL.pdf'>Find a Community Event</Button>
+              <Title c='var(--mantine-color-text-success)' order={2}>{t('search.foundTitle')}</Title>
+              <Text fw='600'>{t('search.foundInstruction')}</Text>
+              <Button component={Link} to='https://media.api.sf.gov/documents/Large_Vehicle_Program_Community_Events_-_09.23.25_-_FINAL.pdf'>{t('search.findCommunityEvent')}</Button>
             </Stack>}
         </Stack>
       </Container>
