@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useNavigate, Link, NavLink } from 'react-router';
 import { StatusCodes } from 'http-status-codes';
-import { Anchor, Avatar, Container, Group, Menu, Text, Title } from '@mantine/core';
+import { Anchor, Avatar, Button, Container, Group, Menu, Text, Title } from '@mantine/core';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
 
 import Api from './Api';
@@ -14,7 +14,7 @@ function Header ({ opened, close, toggle }) {
   const navigate = useNavigate();
   const { user, setUser } = useAuthContext();
   const queryClient = useQueryClient();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const { data, isSuccess } = useQuery({
     queryKey: ['users', 'me'],
@@ -74,6 +74,14 @@ function Header ({ opened, close, toggle }) {
               </Anchor>
             </>
           )}
+        </Group>
+        <Group gap='xs'>
+          <Button size='xs' variant={i18n.resolvedLanguage === 'en' ? 'filled' : 'light'} onClick={() => i18n.changeLanguage('en')}>
+            EN
+          </Button>
+          <Button size='xs' variant={i18n.resolvedLanguage === 'es' ? 'filled' : 'light'} onClick={() => i18n.changeLanguage('es')}>
+            ES
+          </Button>
         </Group>
       </Group>
     </Container>

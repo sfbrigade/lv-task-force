@@ -6,10 +6,18 @@ i18n
   .use(Backend)
   .use(initReactI18next)
   .init({
+    lng: typeof window !== 'undefined' ? (window.localStorage.getItem('i18nextLng') || 'en') : 'en',
     fallbackLng: 'en',
+    supportedLngs: ['en', 'es'],
     interpolation: {
       escapeValue: false,
     },
   });
+
+if (typeof window !== 'undefined') {
+  i18n.on('languageChanged', (lng) => {
+    try { window.localStorage.setItem('i18nextLng', lng); } catch (_) { /* ignore */ }
+  });
+}
 
 export default i18n;
