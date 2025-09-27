@@ -84,18 +84,13 @@ function Header ({ opened, close, toggle }) {
             </Text>
           </Menu.Target>
           <Menu.Dropdown>
-            <Menu.Item onClick={() => i18n.changeLanguage('en')} disabled={i18n.resolvedLanguage === 'en'}>
-              {t('lang.en')}
-            </Menu.Item>
-            <Menu.Item onClick={() => i18n.changeLanguage('es')} disabled={i18n.resolvedLanguage === 'es'}>
-              {t('lang.es')}
-            </Menu.Item>
-            <Menu.Item onClick={() => i18n.changeLanguage('zh-Hant')} disabled={i18n.resolvedLanguage === 'zh-Hant'}>
-              {t('lang.zh-Hant')}
-            </Menu.Item>
-            <Menu.Item onClick={() => i18n.changeLanguage('fil')} disabled={i18n.resolvedLanguage === 'fil'}>
-              {t('lang.fil')}
-            </Menu.Item>
+            {((i18n.options?.supportedLngs ?? [])
+              .filter((code) => typeof code === 'string' && code !== 'cimode')
+              .map((code) => (
+                <Menu.Item key={code} onClick={() => i18n.changeLanguage(code).catch(err => console.error(err))} disabled={i18n.resolvedLanguage === code}>
+                  {t(`lang.${code}`)}
+                </Menu.Item>
+              )))}
           </Menu.Dropdown>
         </Menu>
       </Group>

@@ -72,12 +72,13 @@
     "liabilityTitle": "Pananagutan",
     "liabilityText": "Sa anumang pagkakataon, hindi mananagot ang SF Civic Tech para sa anumang aksyon o pagkukulang na bunga ng pag-asa sa anumang impormasyong nilalaman dito anuman ang pinagmulan, at hindi rin mananagot sa anumang kahihinatnan mula sa gayong pag-asa.",
     "browserTitle": "Pagiging tugma ng browser",
-    "browserText": "Sinusuportahan ng SF Civic Tech ang pinakabagong bersyon ng Internet Explorer, Firefox, Chrome, at Safari sa karaniwang view, pati na rin ang Safari at Chrome sa mobile."
+    "browserText": "Sinusuportahan ng SF Civic Tech ang pinakabagong bersyon ng Firefox, Chrome, at Safari sa karaniwang view, pati na rin ang Safari at Chrome sa mobile."
   },
   "lang": {
     "en": "English",
     "es": "Español",
     "zh-Hant": "繁體中文",
-    "fil": "Filipino"
+    "fil": "Filipino",
+    "vi-VN": "Tiếng Việt"
   }
 }

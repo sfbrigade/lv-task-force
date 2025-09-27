@@ -72,12 +72,13 @@
     "liabilityTitle": "責任",
     "liabilityText": "在任何情況下，SF Civic Tech 對於任何來源之資訊所導致的信賴行為或疏失概不負責，亦不對因此所產生的任何後果承擔責任。",
     "browserTitle": "瀏覽器相容性",
-    "browserText": "SF Civic Tech 支援最新版的 Internet Explorer、Firefox、Chrome 與 Safari 的標準檢視模式，以及行動版的 Safari 與 Chrome。"
+    "browserText": "SF Civic Tech 支援最新版的 Firefox、Chrome 與 Safari 的標準檢視模式，以及行動版的 Safari 與 Chrome。"
   },
   "lang": {
     "en": "English",
     "es": "Español",
     "zh-Hant": "繁體中文",
-    "fil": "菲律賓語"
+    "fil": "Filipino",
+    "vi-VN": "Tiếng Việt"
   }
 }

@@ -8,7 +8,7 @@ i18n
   .init({
     lng: typeof window !== 'undefined' ? (window.localStorage.getItem('i18nextLng') || 'en') : 'en',
     fallbackLng: 'en',
-    supportedLngs: ['en', 'es', 'zh-Hant', 'fil'],
+    supportedLngs: ['en', 'es', 'zh-Hant', 'fil', 'vi-VN'],
     interpolation: {
       escapeValue: false,
     },
@@ -16,7 +16,7 @@ i18n
 
 if (typeof window !== 'undefined') {
   i18n.on('languageChanged', (lng) => {
-    try { window.localStorage.setItem('i18nextLng', lng); } catch (_) { /* ignore */ }
+    try { window.localStorage.setItem('i18nextLng', lng); } catch (err) { console.error(err); }
   });
 }
 

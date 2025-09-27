@@ -72,12 +72,13 @@
     "liabilityTitle": "Responsabilidad",
     "liabilityText": "Bajo ninguna circunstancia SF Civic Tech será responsable por cualquier acción u omisión derivada de la confianza en cualquier información aquí contenida, cualquiera que sea su fuente, ni SF Civic Tech será responsable por cualquier otra consecuencia derivada de dicha confianza.",
     "browserTitle": "Compatibilidad del navegador",
-    "browserText": "SF Civic Tech es compatible con las últimas versiones de Internet Explorer, Firefox, Chrome y Safari en vista estándar, así como con Safari y Chrome para dispositivos móviles."
+    "browserText": "SF Civic Tech es compatible con las últimas versiones de Firefox, Chrome y Safari en vista estándar, así como con Safari y Chrome para dispositivos móviles."
   },
   "lang": {
     "en": "English",
     "es": "Español",
     "zh-Hant": "繁體中文",
-    "fil": "Filipino"
+    "fil": "Filipino",
+    "vi-VN": "Tiếng Việt"
   }
 }
