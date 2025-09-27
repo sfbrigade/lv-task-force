@@ -1,8 +1,9 @@
 import { useEffect } from 'react';
 import { useNavigate, Link, NavLink } from 'react-router';
 import { StatusCodes } from 'http-status-codes';
-import { Anchor, Avatar, Button, Container, Group, Menu, Text, Title } from '@mantine/core';
+import { Anchor, Avatar, Container, Group, Menu, Text, Title } from '@mantine/core';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
+import { IconChevronDown } from '@tabler/icons-react';
 
 import Api from './Api';
 import { useAuthContext } from './AuthContext';
@@ -75,14 +76,22 @@ function Header ({ opened, close, toggle }) {
             </>
           )}
         </Group>
-        <Group gap='xs'>
-          <Button size='xs' variant={i18n.resolvedLanguage === 'en' ? 'filled' : 'light'} onClick={() => i18n.changeLanguage('en')}>
-            EN
-          </Button>
-          <Button size='xs' variant={i18n.resolvedLanguage === 'es' ? 'filled' : 'light'} onClick={() => i18n.changeLanguage('es')}>
-            ES
-          </Button>
-        </Group>
+        <Menu withinPortal>
+          <Menu.Target>
+            <Text fz='sm' fw='600' style={{ display: 'inline-flex', alignItems: 'center', gap: 2, cursor: 'pointer' }}>
+              {i18n.resolvedLanguage?.toLowerCase().startsWith('es') ? t('lang.spanish') : t('lang.english')}
+              <IconChevronDown size={24} />
+            </Text>
+          </Menu.Target>
+          <Menu.Dropdown>
+            <Menu.Item onClick={() => i18n.changeLanguage('en')} disabled={i18n.resolvedLanguage === 'en'}>
+              {t('lang.english')}
+            </Menu.Item>
+            <Menu.Item onClick={() => i18n.changeLanguage('es')} disabled={i18n.resolvedLanguage === 'es'}>
+              {t('lang.spanish')}
+            </Menu.Item>
+          </Menu.Dropdown>
+        </Menu>
       </Group>
     </Container>
   );
