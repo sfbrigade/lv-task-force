@@ -1,4 +1,4 @@
-import { createTheme, Button, Card, Container, Text } from '@mantine/core';
+import { createTheme, Button, Card, Container, Text, TextInput } from '@mantine/core';
 
 import buttonClasses from './Button.module.css';
 
@@ -45,13 +45,23 @@ export const AppTheme = createTheme({
     }),
     Container: Container.extend({
       defaultProps: {
-        p: '2rem 1rem 2.25.rem',
+        p: '2rem 1rem 2.25rem',
         size: '480px'
       }
     }),
     Text: Text.extend({
       defaultProps: {
         inherit: true
+      }
+    }),
+    TextInput: TextInput.extend({
+      styles: {
+        input: {
+          borderWidth: '2px',
+        }
+      },
+      defaultProps: {
+        size: 'lg'
       }
     })
   },
