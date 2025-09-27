@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router';
-import { Anchor, Card, Container, Stack, Title, TextInput, Button, Text } from '@mantine/core';
+import { Anchor, Card, Container, FocusTrap, Stack, Title, TextInput, Button, Text } from '@mantine/core';
 import { Head } from '@unhead/react';
 
 function Home () {
@@ -24,8 +24,10 @@ function Home () {
           <form onSubmit={onSubmit}>
             <Stack>
               <Text fz='lg' fw='600'>Enter your license plate number to see if you qualify for a permit.</Text>
-              <TextInput name='licensePlateNumber' value={licensePlateNumber} onChange={(e) => setLicensePlateNumber(e.target.value)} />
-              <Button type='submit'>Check Vehicle</Button>
+              <FocusTrap>
+                <TextInput name='licensePlateNumber' placeholder='e.g. 1ABC234' value={licensePlateNumber} onChange={(e) => setLicensePlateNumber(e.target.value)} data-autofocus />
+              </FocusTrap>
+              <Button disabled={!licensePlateNumber} type='submit'>Check Vehicle</Button>
             </Stack>
           </form>
         </Card>
