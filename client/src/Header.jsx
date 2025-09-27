@@ -79,16 +79,19 @@ function Header ({ opened, close, toggle }) {
         <Menu withinPortal>
           <Menu.Target>
             <Text fz='sm' fw='600' style={{ display: 'inline-flex', alignItems: 'center', gap: 2, cursor: 'pointer' }}>
-              {i18n.resolvedLanguage?.toLowerCase().startsWith('es') ? t('lang.spanish') : t('lang.english')}
+              {t(`lang.${i18n.resolvedLanguage || 'en'}`)}
               <IconChevronDown size={24} />
             </Text>
           </Menu.Target>
           <Menu.Dropdown>
             <Menu.Item onClick={() => i18n.changeLanguage('en')} disabled={i18n.resolvedLanguage === 'en'}>
-              {t('lang.english')}
+              {t('lang.en')}
             </Menu.Item>
             <Menu.Item onClick={() => i18n.changeLanguage('es')} disabled={i18n.resolvedLanguage === 'es'}>
-              {t('lang.spanish')}
+              {t('lang.es')}
+            </Menu.Item>
+            <Menu.Item onClick={() => i18n.changeLanguage('zh-Hant')} disabled={i18n.resolvedLanguage === 'zh-Hant'}>
+              {t('lang.zh-Hant')}
             </Menu.Item>
           </Menu.Dropdown>
         </Menu>

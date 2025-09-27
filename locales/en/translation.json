@@ -75,7 +75,8 @@
     "browserText": "SF Civic Tech supports the latest versions of Internet Explorer, Firefox, Chrome, and Safari in standard view, as well as Safari and Chrome for mobile."
   },
   "lang": {
-    "english": "English",
-    "spanish": "Español"
+    "en": "English",
+    "es": "Español",
+    "zh-Hant": "繁體中文"
   }
 }
