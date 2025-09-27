@@ -31,8 +31,9 @@ function Search () {
               <Button component={Link} to='/'>Re-enter license plate</Button>
               <Card>
                 <Stack>
-                  <Text fw='600'>If the number is correct, you may still qualify — to submit an appeal, attend a Community Event for help.</Text>
-                  <Button component={Link} to='https://media.api.sf.gov/documents/Large_Vehicle_Program_Community_Events_-_09.23.25_-_FINAL.pdf'>Find a Community Event</Button>
+                  <Text fw='600'>If the number is correct, you may still qualify — submit an appeal or attend a Community Event for help.</Text>
+                  <Button component={Link} to='https://digital.forms.sf.gov/t/vpMQz4c7Jmus'>Submit an Appeal</Button>
+                  <Button variant='secondary' component={Link} to='https://media.api.sf.gov/documents/Large_Vehicle_Program_Community_Events_-_09.23.25_-_FINAL.pdf'>Find a Community Event</Button>
                 </Stack>
               </Card>
             </Stack>}

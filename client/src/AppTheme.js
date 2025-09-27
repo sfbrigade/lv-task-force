@@ -33,7 +33,7 @@ export const AppTheme = createTheme({
       classNames: buttonClasses,
       defaultProps: {
         color: 'dark',
-        size: 'md',
+        size: 'lg',
         variant: 'filled',
         fz: 'sm'
       }
