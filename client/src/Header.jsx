@@ -93,6 +93,9 @@ function Header ({ opened, close, toggle }) {
             <Menu.Item onClick={() => i18n.changeLanguage('zh-Hant')} disabled={i18n.resolvedLanguage === 'zh-Hant'}>
               {t('lang.zh-Hant')}
             </Menu.Item>
+            <Menu.Item onClick={() => i18n.changeLanguage('fil')} disabled={i18n.resolvedLanguage === 'fil'}>
+              {t('lang.fil')}
+            </Menu.Item>
           </Menu.Dropdown>
         </Menu>
       </Group>
