@@ -19,13 +19,7 @@ export default async function (fastify, opts) {
       reply.status(StatusCodes.BAD_REQUEST).send();
       return;
     }
-    const options = {
-      where: {
-        licensePlateNumber: search.trim(),
-        wasVehicleInAudit: true,
-      }
-    };
-    const count = await fastify.prisma.largeVehicle.count(options);
-    reply.send(count > 0);
+    const isEligible = await fastify.prisma.largeVehicle.isEligible({ licensePlateNumber: search.trim() });
+    reply.send(isEligible);
   });
 }
