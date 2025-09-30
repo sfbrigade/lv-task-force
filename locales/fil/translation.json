@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "Pagsuri ng Permit ng Sasakyan",
+    "title": "Pagsusuri sa Database ng Malalaking Sasakyan",
     "subtitle": "Isang pilotong serbisyo ng SF Civic Tech",
     "menu": {
       "admin": "Admin",
@@ -14,15 +14,14 @@
     "providedBy": "Ibinigay ng",
     "partnershipLine1": "sa pakikipagtulungan sa",
     "partnershipLine2": "Lungsod at County ng San Francisco",
-    "permitProgramSite": "Site ng programa ng permit",
+    "permitProgramSite": "Site ng Programa ng Malalaking Sasakyan",
     "privacyPolicy": "Patakaran sa Privacy",
     "disclaimer": "Paunawa"
   },
   "home": {
     "metaTitle": "Home",
-    "permitProgramLink": "Pumunta sa Site ng Programa ng Permit →",
-    "heading": "Nasa sistema ba ng permit ang iyong sasakyan?",
-    "instructions": "Ilagay ang numero ng iyong plaka upang makita kung kwalipikado ka para sa permit.",
+    "permitProgramLink": "Pumunta sa Site ng Programa ng Malalaking Sasakyan →",
+    "instructions": "Ilagay ang numero ng iyong plaka upang makita kung kwalipikado ang iyong sasakyan para sa Permit sa Kanlungan para sa Malalaking Sasakyan.",
     "licensePlatePlaceholder": "hal. 1ABC234",
     "checkVehicleButton": "Suriin ang Sasakyan",
     "databaseNote": "Tinutulungan ka ng tool na ito na tingnan kung ang iyong sasakyan ay naitala sa Large Vehicle database ng Lungsod noong Mayo 31, 2025.",
@@ -33,14 +32,14 @@
   "search": {
     "metaTitle": "Paghahanap",
     "licensePlateLabel": "Plaka:",
-    "notFoundTitle": "Hindi namin nahanap ang iyong sasakyan sa sistema",
+    "notFoundTitle": "Hindi namin nahanap ang iyong sasakyan sa database",
     "notFoundInstruction": "Pakisuri muli ang numerong plaka na iyong inilagay.",
     "reenterButton": "Ilagay muli ang plaka",
     "appealCardText": "Kung tama ang numero, maaari ka pa ring kwalipikado — magsumite ng apela o dumalo sa Community Event para sa tulong.",
     "submitAppeal": "Magsumite ng Apela",
     "findCommunityEvent": "Maghanap ng Community Event",
-    "foundTitle": "Magandang balita! Ang iyong sasakyan ay nasa sistema",
-    "foundInstruction": "Maaaring kwalipikado ka para sa Large Vehicle Permit. Dumalo sa nalalapit na Community Event upang mag-apply."
+    "foundTitle": "Magandang balita! Ang iyong sasakyan ay nasa database",
+    "foundInstruction": "Maaaring kwalipikado ka para sa Permit sa Kanlungan para sa Malalaking Sasakyan. Dumalo sa nalalapit na Community Event upang mag-apply."
   },
   "privacy": {
     "metaTitle": "Patakaran sa Privacy",
@@ -69,6 +68,7 @@
     "metaTitle": "Paunawa",
     "title": "Paunawa",
     "subtitle": "Mga tuntunin ng paggamit, pananagutan, at pagiging tugma ng browser.",
+    "intro": "Ang impormasyong ipinapakita sa website na ito ay kinokolekta, pinananatili, at ibinibigay para sa kaginhawaan ng mambabasa. Bagama't ginagawa ang lahat ng pagsisikap upang panatilihing tumpak ang impormasyon, hindi namin pinatutunayan ang pagiging tunay ng impormasyong nagmumula sa mga third party.",
     "liabilityTitle": "Pananagutan",
     "liabilityText": "Sa anumang pagkakataon, hindi mananagot ang SF Civic Tech para sa anumang aksyon o pagkukulang na bunga ng pag-asa sa anumang impormasyong nilalaman dito anuman ang pinagmulan, at hindi rin mananagot sa anumang kahihinatnan mula sa gayong pag-asa.",
     "browserTitle": "Pagiging tugma ng browser",

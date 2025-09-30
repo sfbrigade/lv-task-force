@@ -12,7 +12,7 @@ function Disclaimer () {
       <Container>
         <Title order={1} mb='lg'>{t('disclaimer.title')}</Title>
         <Title order={2}>{t('disclaimer.subtitle')}</Title>
-        <Text>{t('disclaimer.intro', 'Information presented on this website is collected, maintained, and provided for the convenience of the reader. While every effort is made to keep the information accurate, we do not certify the authenticity of information that originates from third parties.')}</Text>
+        <Text>{t('disclaimer.intro')}</Text>
         <Title order={3} mt='md'>{t('disclaimer.liabilityTitle')}</Title>
         <Text>{t('disclaimer.liabilityText')}</Text>
         <Title order={3} mt='md'>{t('disclaimer.browserTitle')}</Title>
