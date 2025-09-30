@@ -1,0 +1,86 @@
+{
+  "header": {
+    "title": "Büyük Araç Veritabanı Kontrolü",
+    "subtitle": "SF Civic Tech tarafından sunulan pilot hizmet",
+    "menu": {
+      "admin": "Yönetim",
+      "invites": "Davetler",
+      "users": "Kullanıcılar"
+    },
+    "helloPrefix": "Merhaba",
+    "logout": "Çıkış yap"
+  },
+  "footer": {
+    "providedBy": "Sağlayan",
+    "partnershipLine1": "iş birliğiyle",
+    "partnershipLine2": "San Francisco Şehri ve İlçesi",
+    "permitProgramSite": "Büyük Araç Programı Sitesi",
+    "privacyPolicy": "Gizlilik Politikası",
+    "disclaimer": "Feragatname"
+  },
+  "home": {
+    "metaTitle": "Ana Sayfa",
+    "permitProgramLink": "Büyük Araç Programı Sitesine Git →",
+    "instructions": "Aracınızın Büyük Araç Sığınak İzni için uygun olup olmadığını görmek için plaka numaranızı girin.",
+    "licensePlatePlaceholder": "ör. 1ABC234",
+    "checkVehicleButton": "Aracı Kontrol Et",
+    "databaseNote": "Bu araç, 31 Mayıs 2025 itibarıyla aracınızın Şehrin Büyük Araç veritabanında kayıtlı olup olmadığını kontrol etmenizi sağlar.",
+    "noPlateHeading": "Plakanız yok mu?",
+    "noPlateDescription": "Plakanız yoksa veya ne gireceğinizi bilmiyorsanız, yardım için bir Topluluk Etkinliğine katılın.",
+    "findCommunityEvent": "Topluluk Etkinliği Bul"
+  },
+  "search": {
+    "metaTitle": "Arama",
+    "licensePlateLabel": "Plaka:",
+    "notFoundTitle": "Aracınızı veritabanında bulamadık",
+    "notFoundInstruction": "Lütfen girdiğiniz plaka numarasını kontrol edin.",
+    "reenterButton": "Plakayı yeniden gir",
+    "appealCardText": "Numara doğruysa yine de uygun olabilirsiniz — itiraz gönderin veya yardım için bir Topluluk Etkinliğine katılın.",
+    "submitAppeal": "İtiraz Gönder",
+    "findCommunityEvent": "Topluluk Etkinliği Bul",
+    "foundTitle": "İyi haber! Aracınız veritabanında",
+    "foundInstruction": "Büyük Araç Sığınak İzni için uygun olabilirsiniz. Başvuru için yaklaşan bir Topluluk Etkinliğine katılın."
+  },
+  "privacy": {
+    "metaTitle": "Gizlilik Politikası",
+    "title": "Gizlilik Politikası",
+    "intro": "Bu siteyi ziyaret ettiğinizde topladığımız bilgi türlerini ve bunları korumak için attığımız adımları açıklar.",
+    "generalPolicy": "Genel politika",
+    "infoCollectionTitle": "Bilgi toplama",
+    "infoCollectionP1": "Web sitemizi ziyaret ettiğinizde sizinle ilgili kişisel bilgi toplamıyoruz.",
+    "infoCollectionP2": "Bir web sitesini her ziyaret ettiğinizde tarayıcınızın otomatik olarak sağladığı, kişisel olmayan sınırlı bilgileri toplarız. Bu bilgiler bilgisayarınızın veya ağınızın İnternet adresini, sitemizde ziyaret ettiğiniz tarih, saat ve sayfayı, tarayıcınızı ve işletim sisteminizi ve yönlendiren sayfayı (sitemize bir bağlantıya tıklamadan önce ziyaret ettiğiniz son web sayfası) içerir.",
+    "infoCollectionP3": "Tüm ziyaretçilerimizden anonimleştirilmiş ve birleştirilmiş bu bilgileri, sunucu performansını ölçmek ve sitemizin içeriğini iyileştirmek için kullanırız.",
+    "infoYouProvideTitle": "Sunduğunuz bilgiler",
+    "infoYouProvideP1": "Bir form doldurduğunuzda, gönderdiğiniz bilgiler o formun bağlamında kullanılacaktır.",
+    "infoYouProvideP2": "Bilgilerinizi korumak için makul güvenlik önlemleri uygularız. Ancak internet üzerinden veri iletimi %100 güvenli değildir ve mutlak güvenliği garanti edemeyiz.",
+    "infoYouProvideP3": "Herhangi bir kişisel bilgiyi üçüncü bir tarafa vermeyiz, paylaşmayız, satmayız, kiralamayız veya aktarmayız.",
+    "siteAnalyticsTitle": "Site analitiği",
+    "siteAnalyticsP1": "Web sitemizle ziyaretçilerin nasıl etkileşim kurduğunu anlamak ve siteyi geliştirmek için \"PostHog\" adlı bir araç kullanıyoruz. PostHog ile kişisel bilgi toplamıyoruz. PostHog çerez kullanmaz.",
+    "linksTitle": "Bağlantılar",
+    "linksP1": "Web sitemiz üçüncü taraf sitelere bağlantılar içerir. Bu sitelerin gizlilik uygulamalarından sorumlu değiliz ve politikalarını incelemenizi öneririz.",
+    "siteSecurityTitle": "Site güvenliği",
+    "siteSecurityP1": "Bilgi yükleme veya değiştirme girişimleri ya da siteye zarar verme teşebbüslerini belirlemek için ağ trafiğini izliyoruz. Bu web sitesini kullanan herkes bu izlemeyi açıkça kabul eder.",
+    "siteSecurityP2": "Verilere yetkisiz erişime, değişikliğe veya yok edilmeye karşı koruma sağlamak için uygun güvenlik önlemleri alıyoruz.",
+    "policyChangesTitle": "Politika değişiklikleri",
+    "policyChangesP1": "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Çoğu değişikliğin küçük olmasını bekliyoruz, ancak meydana geldikçe bu değişiklikleri yayınlayacağız."
+  },
+  "disclaimer": {
+    "metaTitle": "Feragatname",
+    "title": "Feragatname",
+    "subtitle": "Kullanım şartları, sorumluluk ve tarayıcı uyumluluğu.",
+    "intro": "Bu web sitesinde sunulan bilgiler, okuyucunun kolaylığı için toplanır, korunur ve sağlanır. Bilgilerin doğru kalması için her türlü çaba gösterilse de, üçüncü taraflardan gelen bilgilerin doğruluğunu sertifikalandırmıyoruz.",
+    "liabilityTitle": "Sorumluluk",
+    "liabilityText": "Hiçbir koşulda SF Civic Tech, kaynağı ne olursa olsun burada yer alan bilgilere güvenmekten doğan herhangi bir eylem veya ihmalden sorumlu değildir; ayrıca SF Civic Tech bu tür güvenmeden kaynaklanan başka sonuçlardan da sorumlu tutulamaz.",
+    "browserTitle": "Tarayıcı uyumluluğu",
+    "browserText": "SF Civic Tech, standart görünümde Firefox, Chrome ve Safari'nin en son sürümlerini, ayrıca mobil için Safari ve Chrome'u destekler."
+  },
+  "lang": {
+    "en": "English",
+    "es": "Español",
+    "zh-Hant": "繁體中文",
+    "fil": "Filipino",
+    "vi-VN": "Tiếng Việt",
+    "tr": "Türkçe",
+    "pt": "Português"
+  }
+}

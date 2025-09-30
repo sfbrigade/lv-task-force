@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "Vehicle Permit Check",
+    "title": "Large Vehicle Database Check",
     "subtitle": "A pilot service by SF Civic Tech",
     "menu": {
       "admin": "Admin",
@@ -14,15 +14,14 @@
     "providedBy": "Provided by",
     "partnershipLine1": "in partnership with",
     "partnershipLine2": "the City and County of San Francisco",
-    "permitProgramSite": "Permit program site",
+    "permitProgramSite": "Large Vehicle Program Site",
     "privacyPolicy": "Privacy Policy",
     "disclaimer": "Disclaimer"
   },
   "home": {
     "metaTitle": "Home",
-    "permitProgramLink": "To Permit Program Site →",
-    "heading": "Is your vehicle in the permit system?",
-    "instructions": "Enter your license plate number to see if you qualify for a permit.",
+    "permitProgramLink": "To Large Vehicle Program Site →",
+    "instructions": "Enter your license plate number to see if your vehicle qualifies for a Large Vehicle Refuge Permit.",
     "licensePlatePlaceholder": "e.g. 1ABC234",
     "checkVehicleButton": "Check Vehicle",
     "databaseNote": "This tool lets you check if your vehicle was recorded in the City’s Large Vehicle database as of May 31, 2025.",
@@ -33,14 +32,14 @@
   "search": {
     "metaTitle": "Search",
     "licensePlateLabel": "License plate:",
-    "notFoundTitle": "We couldn’t find your vehicle in the system",
+    "notFoundTitle": "We couldn’t find your vehicle in the database",
     "notFoundInstruction": "Please double-check the license plate number you entered.",
     "reenterButton": "Re-enter license plate",
     "appealCardText": "If the number is correct, you may still qualify — submit an appeal or attend a Community Event for help.",
     "submitAppeal": "Submit an Appeal",
     "findCommunityEvent": "Find a Community Event",
-    "foundTitle": "Good news! Your vehicle is in the system",
-    "foundInstruction": "You may qualify for a Large Vehicle Permit. Attend an upcoming Community Event to apply."
+    "foundTitle": "Good news! Your vehicle is in the database",
+    "foundInstruction": "You may qualify for a Large Vehicle Refuge Permit. Attend an upcoming Community Event to apply."
   },
   "privacy": {
     "metaTitle": "Privacy Policy",
@@ -69,6 +68,7 @@
     "metaTitle": "Disclaimer",
     "title": "Disclaimer",
     "subtitle": "Terms of use, liability and browser compatibility.",
+    "intro": "Information presented on this website is collected, maintained, and provided for the convenience of the reader. While every effort is made to keep the information accurate, we do not certify the authenticity of information that originates from third parties.",
     "liabilityTitle": "Liability",
     "liabilityText": "Under no circumstances shall SF Civic Tech be liable for any actions taken or omissions made from reliance on any information contained herein from whatever source nor shall SF Civic Tech be liable for any other consequences from any such reliance.",
     "browserTitle": "Browser compatibility",
@@ -79,6 +79,8 @@
     "es": "Español",
     "zh-Hant": "繁體中文",
     "fil": "Filipino",
-    "vi-VN": "Tiếng Việt"
+    "vi-VN": "Tiếng Việt",
+    "tr": "Türkçe",
+    "pt": "Português"
   }
 }

@@ -8,7 +8,7 @@ i18n
   .init({
     lng: typeof window !== 'undefined' ? (window.localStorage.getItem('i18nextLng') || 'en') : 'en',
     fallbackLng: 'en',
-    supportedLngs: ['en', 'es', 'zh-Hant', 'fil', 'vi-VN'],
+    supportedLngs: ['en', 'es', 'zh-Hant', 'fil', 'vi-VN', 'tr', 'pt'],
     interpolation: {
       escapeValue: false,
     },

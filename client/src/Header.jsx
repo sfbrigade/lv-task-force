@@ -42,9 +42,9 @@ function Header ({ opened, close, toggle }) {
 
   return (
     <Container h='100%' py='0'>
-      <Group h='100%' align='center' justify='space-between'>
+      <Group h='100%' align='center' justify='space-between' wrap='nowrap'>
         <Link className={styles.home} to='/' onClick={close}>
-          <Title className={styles.home__title}>{t('header.title')}</Title>
+          <Title className={styles.home__title} textWrap='nowrap'>{t('header.title')}</Title>
           <Text className={styles.home__subtitle}>{t('header.subtitle')}</Text>
         </Link>
         <Group visibleFrom='sm' gap='xl'>
@@ -78,7 +78,7 @@ function Header ({ opened, close, toggle }) {
         </Group>
         <Menu withinPortal>
           <Menu.Target>
-            <Text fz='sm' fw='600' style={{ display: 'inline-flex', alignItems: 'center', gap: 2, cursor: 'pointer' }}>
+            <Text fz='sm' fw='600' style={{ display: 'inline-flex', alignItems: 'center', gap: 2, cursor: 'pointer', whiteSpace: 'nowrap' }}>
               {t(`lang.${i18n.resolvedLanguage || 'en'}`)}
               <IconChevronDown size={24} />
             </Text>

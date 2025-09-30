@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "Kiểm tra Giấy phép Xe",
+    "title": "Kiểm tra Cơ sở Dữ liệu Xe Cỡ Lớn",
     "subtitle": "Dịch vụ thí điểm của SF Civic Tech",
     "menu": {
       "admin": "Quản trị",
@@ -14,15 +14,14 @@
     "providedBy": "Cung cấp bởi",
     "partnershipLine1": "phối hợp với",
     "partnershipLine2": "Thành phố và Quận San Francisco",
-    "permitProgramSite": "Trang chương trình giấy phép",
+    "permitProgramSite": "Trang Chương trình Xe Cỡ Lớn",
     "privacyPolicy": "Chính sách quyền riêng tư",
     "disclaimer": "Tuyên bố miễn trừ trách nhiệm"
   },
   "home": {
     "metaTitle": "Trang chủ",
-    "permitProgramLink": "Tới Trang Chương trình Giấy phép →",
-    "heading": "Xe của bạn có trong hệ thống giấy phép không?",
-    "instructions": "Nhập số biển số để xem bạn có đủ điều kiện xin giấy phép không.",
+    "permitProgramLink": "Tới Trang Chương trình Xe Cỡ Lớn →",
+    "instructions": "Nhập số biển số để xem xe của bạn có đủ điều kiện nhận Giấy phép Chỗ trú cho Xe Cỡ Lớn hay không.",
     "licensePlatePlaceholder": "vd: 1ABC234",
     "checkVehicleButton": "Kiểm tra xe",
     "databaseNote": "Công cụ này cho phép bạn kiểm tra xem xe của bạn có được ghi nhận trong cơ sở dữ liệu Xe Cỡ Lớn của Thành phố tính đến ngày 31/05/2025 hay không.",
@@ -33,14 +32,14 @@
   "search": {
     "metaTitle": "Tìm kiếm",
     "licensePlateLabel": "Biển số:",
-    "notFoundTitle": "Chúng tôi không tìm thấy xe của bạn trong hệ thống",
+    "notFoundTitle": "Chúng tôi không tìm thấy xe của bạn trong cơ sở dữ liệu",
     "notFoundInstruction": "Vui lòng kiểm tra lại số biển số mà bạn đã nhập.",
     "reenterButton": "Nhập lại biển số",
     "appealCardText": "Nếu số là chính xác, bạn vẫn có thể đủ điều kiện — hãy nộp đơn kháng nghị hoặc tham dự Sự kiện Cộng đồng để được trợ giúp.",
     "submitAppeal": "Nộp đơn Kháng nghị",
     "findCommunityEvent": "Tìm Sự kiện Cộng đồng",
-    "foundTitle": "Tin tốt! Xe của bạn có trong hệ thống",
-    "foundInstruction": "Bạn có thể đủ điều kiện xin Giấy phép Xe Cỡ Lớn. Hãy tham dự Sự kiện Cộng đồng sắp diễn ra để nộp đơn."
+    "foundTitle": "Tin tốt! Xe của bạn có trong cơ sở dữ liệu",
+    "foundInstruction": "Bạn có thể đủ điều kiện nhận Giấy phép Chỗ trú cho Xe Cỡ Lớn. Hãy tham dự Sự kiện Cộng đồng sắp diễn ra để nộp đơn."
   },
   "privacy": {
     "metaTitle": "Chính sách quyền riêng tư",
@@ -69,6 +68,7 @@
     "metaTitle": "Tuyên bố miễn trừ trách nhiệm",
     "title": "Tuyên bố miễn trừ trách nhiệm",
     "subtitle": "Điều khoản sử dụng, trách nhiệm và khả năng tương thích trình duyệt.",
+    "intro": "Thông tin được trình bày trên trang web này được thu thập, duy trì và cung cấp để thuận tiện cho người đọc. Mặc dù chúng tôi nỗ lực tối đa để giữ thông tin chính xác, chúng tôi không chứng nhận tính xác thực của các thông tin có nguồn gốc từ bên thứ ba.",
     "liabilityTitle": "Trách nhiệm",
     "liabilityText": "Trong bất kỳ trường hợp nào, SF Civic Tech cũng không chịu trách nhiệm cho bất kỳ hành động hay thiếu sót nào do dựa vào bất kỳ thông tin nào có trong tài liệu này, bất kể nguồn gốc, cũng như không chịu trách nhiệm cho bất kỳ hệ quả nào từ việc dựa vào đó.",
     "browserTitle": "Khả năng tương thích trình duyệt",
@@ -79,6 +79,8 @@
     "es": "Español",
     "zh-Hant": "繁體中文",
     "fil": "Filipino",
-    "vi-VN": "Tiếng Việt"
+    "vi-VN": "Tiếng Việt",
+    "tr": "Türkçe",
+    "pt": "Português"
   }
 }

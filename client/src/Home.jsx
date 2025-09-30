@@ -21,7 +21,6 @@ function Home () {
       </Head>
       <Container>
         <Anchor href='https://sf.gov/LVprogram' mb='lg' fw='600' display='block'>{t('home.permitProgramLink')}</Anchor>
-        <Title order={1} mb='lg'>{t('home.heading')}</Title>
         <Card mb='md'>
           <form onSubmit={onSubmit}>
             <Stack>

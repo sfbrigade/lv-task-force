@@ -1,6 +1,6 @@
 {
   "header": {
-    "title": "Verificación de Permiso de Vehículo",
+    "title": "Verificación de la Base de Datos de Vehículos Grandes",
     "subtitle": "Un servicio piloto de SF Civic Tech",
     "menu": {
       "admin": "Administración",
@@ -14,15 +14,14 @@
     "providedBy": "Proporcionado por",
     "partnershipLine1": "en colaboración con",
     "partnershipLine2": "la Ciudad y Condado de San Francisco",
-    "permitProgramSite": "Sitio del programa de permisos",
+    "permitProgramSite": "Sitio del Programa de Vehículos Grandes",
     "privacyPolicy": "Política de privacidad",
     "disclaimer": "Descargo de responsabilidad"
   },
   "home": {
     "metaTitle": "Inicio",
-    "permitProgramLink": "Ir al sitio del Programa de Permisos →",
-    "heading": "¿Su vehículo está en el sistema de permisos?",
-    "instructions": "Ingrese su número de matrícula para ver si califica para un permiso.",
+    "permitProgramLink": "Ir al Sitio del Programa de Vehículos Grandes →",
+    "instructions": "Ingrese su número de matrícula para ver si su vehículo califica para un Permiso de Refugio para Vehículos Grandes.",
     "licensePlatePlaceholder": "p. ej., 1ABC234",
     "checkVehicleButton": "Verificar vehículo",
     "databaseNote": "Esta herramienta le permite verificar si su vehículo fue registrado en la base de datos de Vehículos Grandes de la Ciudad al 31 de mayo de 2025.",
@@ -33,14 +32,14 @@
   "search": {
     "metaTitle": "Búsqueda",
     "licensePlateLabel": "Matrícula:",
-    "notFoundTitle": "No pudimos encontrar su vehículo en el sistema",
+    "notFoundTitle": "No pudimos encontrar su vehículo en la base de datos",
     "notFoundInstruction": "Verifique el número de matrícula que ingresó.",
     "reenterButton": "Volver a ingresar la matrícula",
     "appealCardText": "Si el número es correcto, aún podría calificar — presente una apelación o asista a un Evento Comunitario para recibir ayuda.",
     "submitAppeal": "Presentar una apelación",
     "findCommunityEvent": "Buscar un Evento Comunitario",
-    "foundTitle": "¡Buenas noticias! Su vehículo está en el sistema",
-    "foundInstruction": "Podría calificar para un Permiso de Vehículo Grande. Asista a un próximo Evento Comunitario para aplicar."
+    "foundTitle": "¡Buenas noticias! Su vehículo está en la base de datos",
+    "foundInstruction": "Podría calificar para un Permiso de Refugio para Vehículos Grandes. Asista a un próximo Evento Comunitario para aplicar."
   },
   "privacy": {
     "metaTitle": "Política de privacidad",
@@ -69,6 +68,7 @@
     "metaTitle": "Descargo de responsabilidad",
     "title": "Descargo de responsabilidad",
     "subtitle": "Términos de uso, responsabilidad y compatibilidad del navegador.",
+    "intro": "La información presentada en este sitio web se recopila, mantiene y proporciona para la conveniencia del lector. Aunque se hace todo lo posible por mantener la información precisa, no certificamos la autenticidad de la información que proviene de terceros.",
     "liabilityTitle": "Responsabilidad",
     "liabilityText": "Bajo ninguna circunstancia SF Civic Tech será responsable por cualquier acción u omisión derivada de la confianza en cualquier información aquí contenida, cualquiera que sea su fuente, ni SF Civic Tech será responsable por cualquier otra consecuencia derivada de dicha confianza.",
     "browserTitle": "Compatibilidad del navegador",
@@ -79,6 +79,8 @@
     "es": "Español",
     "zh-Hant": "繁體中文",
     "fil": "Filipino",
-    "vi-VN": "Tiếng Việt"
+    "vi-VN": "Tiếng Việt",
+    "tr": "Türkçe",
+    "pt": "Português"
   }
 }
