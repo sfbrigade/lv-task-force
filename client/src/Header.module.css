@@ -22,5 +22,8 @@
   color: var(--mantine-color-text-tertiary);
   font-size: 0.75rem;
   font-weight: 600;
-  line-height: 1;
+  line-height: 1;  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
