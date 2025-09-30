@@ -1,0 +1,86 @@
+{
+  "header": {
+    "title": "Verificação da Base de Dados de Veículos de Grande Porte",
+    "subtitle": "Um serviço piloto da SF Civic Tech",
+    "menu": {
+      "admin": "Administração",
+      "invites": "Convites",
+      "users": "Usuários"
+    },
+    "helloPrefix": "Olá",
+    "logout": "Sair"
+  },
+  "footer": {
+    "providedBy": "Fornecido por",
+    "partnershipLine1": "em parceria com",
+    "partnershipLine2": "a Cidade e Condado de São Francisco",
+    "permitProgramSite": "Site do Programa de Veículos de Grande Porte",
+    "privacyPolicy": "Política de Privacidade",
+    "disclaimer": "Aviso Legal"
+  },
+  "home": {
+    "metaTitle": "Início",
+    "permitProgramLink": "Ir para o Site do Programa de Veículos de Grande Porte →",
+    "instructions": "Insira o número da sua placa para ver se seu veículo se qualifica para uma Permissão de Refúgio para Veículos de Grande Porte.",
+    "licensePlatePlaceholder": "ex.: 1ABC234",
+    "checkVehicleButton": "Verificar veículo",
+    "databaseNote": "Esta ferramenta permite verificar se seu veículo foi registrado no banco de dados de Veículos de Grande Porte da Cidade até 31 de maio de 2025.",
+    "noPlateHeading": "Sem placa?",
+    "noPlateDescription": "Se você não tem placa, ou não sabe o que inserir, participe de um Evento Comunitário para obter ajuda.",
+    "findCommunityEvent": "Encontrar um Evento Comunitário"
+  },
+  "search": {
+    "metaTitle": "Busca",
+    "licensePlateLabel": "Placa:",
+    "notFoundTitle": "Não encontramos seu veículo no banco de dados",
+    "notFoundInstruction": "Verifique o número da placa que você digitou.",
+    "reenterButton": "Digitar a placa novamente",
+    "appealCardText": "Se o número estiver correto, você ainda pode se qualificar — envie um recurso ou participe de um Evento Comunitário para obter ajuda.",
+    "submitAppeal": "Enviar Recurso",
+    "findCommunityEvent": "Encontrar um Evento Comunitário",
+    "foundTitle": "Boas notícias! Seu veículo está no banco de dados",
+    "foundInstruction": "Você pode se qualificar para uma Permissão de Refúgio para Veículos de Grande Porte. Participe de um próximo Evento Comunitário para se inscrever."
+  },
+  "privacy": {
+    "metaTitle": "Política de Privacidade",
+    "title": "Política de Privacidade",
+    "intro": "Descreve os tipos de informações que coletamos quando você visita este site e as medidas que tomamos para protegê-las.",
+    "generalPolicy": "Política geral",
+    "infoCollectionTitle": "Coleta de informações",
+    "infoCollectionP1": "Não coletamos informações pessoais sobre você quando visita nosso site.",
+    "infoCollectionP2": "Coletamos uma quantidade limitada de informações não pessoais que seu navegador fornece automaticamente sempre que você visita um site. Essas informações incluem o endereço de Internet do seu computador ou rede, a data, a hora e a página que você visitou em nosso site, seu navegador e sistema operacional, e a página de referência (a última página da web que você visitou antes de clicar em um link para nosso site).",
+    "infoCollectionP3": "Usamos essas informações agregadas e anonimizadas de todos os visitantes para medir o desempenho do servidor e melhorar o conteúdo do site.",
+    "infoYouProvideTitle": "Informações que você fornece",
+    "infoYouProvideP1": "Quando você preenche um formulário, as informações enviadas serão usadas no contexto desse formulário.",
+    "infoYouProvideP2": "Implementamos medidas de segurança razoáveis para proteger suas informações. No entanto, nenhuma transmissão de dados pela internet é 100% segura e não podemos garantir segurança absoluta.",
+    "infoYouProvideP3": "Não fornecemos, compartilhamos, vendemos, alugamos ou transferimos quaisquer informações pessoais a terceiros.",
+    "siteAnalyticsTitle": "Análise do site",
+    "siteAnalyticsP1": "Usamos uma ferramenta chamada \"PostHog\" para entender como os visitantes interagem com nosso site para que possamos melhorá-lo. Não coletamos informações pessoais usando o PostHog. O PostHog não usa cookies.",
+    "linksTitle": "Links",
+    "linksP1": "Nosso site contém links para sites de terceiros. Não somos responsáveis por suas práticas de privacidade e recomendamos que você revise suas políticas.",
+    "siteSecurityTitle": "Segurança do site",
+    "siteSecurityP1": "Monitoramos o tráfego da rede para identificar tentativas não autorizadas de enviar ou alterar informações ou causar danos ao site. Qualquer pessoa que use este site concorda expressamente com tal monitoramento.",
+    "siteSecurityP2": "Tomamos medidas de segurança apropriadas para proteger contra acesso não autorizado, alteração ou destruição de dados.",
+    "policyChangesTitle": "Alterações na política",
+    "policyChangesP1": "Podemos atualizar esta Política de Privacidade de tempos em tempos. Esperamos que a maioria dessas mudanças seja pequena, mas publicaremos essas alterações à medida que ocorrerem."
+  },
+  "disclaimer": {
+    "metaTitle": "Aviso Legal",
+    "title": "Aviso Legal",
+    "subtitle": "Termos de uso, responsabilidade e compatibilidade do navegador.",
+    "intro": "As informações apresentadas neste site são coletadas, mantidas e fornecidas para a conveniência do leitor. Embora façamos todo o esforço para manter as informações precisas, não certificamos a autenticidade de informações provenientes de terceiros.",
+    "liabilityTitle": "Responsabilidade",
+    "liabilityText": "Em nenhuma circunstância a SF Civic Tech será responsável por quaisquer ações tomadas ou omissões feitas com base em qualquer informação aqui contida, independentemente da fonte, nem será responsável por quaisquer outras consequências decorrentes de tal confiança.",
+    "browserTitle": "Compatibilidade do navegador",
+    "browserText": "A SF Civic Tech oferece suporte às versões mais recentes do Firefox, Chrome e Safari na visualização padrão, bem como ao Safari e Chrome para dispositivos móveis."
+  },
+  "lang": {
+    "en": "English",
+    "es": "Español",
+    "zh-Hant": "繁體中文",
+    "fil": "Filipino",
+    "vi-VN": "Tiếng Việt",
+    "tr": "Türkçe",
+    "pt": "Português"
+  }
+}
