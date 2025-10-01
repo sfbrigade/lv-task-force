@@ -80,7 +80,7 @@ function App () {
                   />
                 </Routes>
               </AppShell.Main>
-              <AppShell.Footer pos='relative' h='12.875rem' bd='none' bg='var(--mantine-color-light-background)'>
+              <AppShell.Footer pos='relative' bd='none' bg='var(--mantine-color-light-background)'>
                 <Footer />
               </AppShell.Footer>
             </AppShell>
