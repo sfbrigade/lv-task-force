@@ -8,7 +8,7 @@ const prisma = new PrismaClient({
     largeVehicle: {
       async isEligible ({ licensePlateNumber }) {
         const context = Prisma.getExtensionContext(this);
-        const count = await context.count({ where: { licensePlateNumber, wasVehicleInAudit: true } });
+        const count = await context.count({ where: { licensePlateNumber, isEligibleForPermit: true } });
         return count > 0;
       }
     },

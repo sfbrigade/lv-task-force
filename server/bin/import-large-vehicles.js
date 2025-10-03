@@ -1,12 +1,10 @@
 #!/usr/bin/env node
 
 // Import Large Vehicle records from DataSF and upsert into the database
-// Source: https://data.sfgov.org/api/v3/views/yh8c-vm2p/query.json
-
 import '../config.js';
 import prisma from '../prisma/client.js';
 
-const SOURCE_URL = 'https://data.sfgov.org/api/v3/views/yh8c-vm2p/query.json';
+const SOURCE_URL = 'https://data.staff.sf.gov/resource/7hhb-3znd.json';
 
 // Utility: sleep for ms
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -53,6 +51,7 @@ function mapLargeVehicle (rec) {
   const reportingDate = getField(rec, ['reporting date', 'reporting_date', 'reportingdate', 'report date']);
   const vehicleId = getField(rec, ['vehicle id', 'vehicle_id', 'vehicleid', 'vin', 'unique vehicle id']);
   const wasVehicleInAudit = getField(rec, ['was vehicle in audit', 'in audit', 'audited', 'was_in_audit']);
+  const isEligibleForPermit = getField(rec, ['is eligible for permit', 'eligible for permit', 'permit_eligible', 'permit_eligible']);
   const licensePlateNumber = getField(rec, ['license plate number', 'plate', 'license_plate', 'license plate']);
   const licensePlateState = getField(rec, ['license plate state', 'plate state', 'state']);
 
@@ -65,6 +64,7 @@ function mapLargeVehicle (rec) {
     reportingDate: toDate(reportingDate) || now,
     vehicleId: vehicleId ? String(vehicleId) : undefined,
     wasVehicleInAudit: toBoolean(wasVehicleInAudit) ?? false,
+    isEligibleForPermit: toBoolean(isEligibleForPermit) ?? false,
     licensePlateNumber: licensePlateNumber ? String(licensePlateNumber) : null,
     licensePlateState: licensePlateState ? String(licensePlateState) : null,
     dataAsOf: toDate(dataAsOf) || now,
@@ -77,12 +77,13 @@ async function fetchPage ({ limit, offset, retries = 3 }) {
   url.searchParams.set('$limit', String(limit));
   url.searchParams.set('$offset', String(offset));
 
+  const credentials = Buffer.from(`${process.env.SOCRATA_API_KEY_ID}:${process.env.SOCRATA_API_KEY_SECRET}`).toString('base64');
+
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
       const res = await fetch(url, {
         headers: {
-          // Socrata may rate-limit; user can optionally set an app token
-          ...(process.env.SOCRATA_APP_TOKEN ? { 'X-App-Token': process.env.SOCRATA_APP_TOKEN } : {})
+          Authorization: `Basic ${credentials}`
         }
       });
       if (!res.ok) {
@@ -109,6 +110,7 @@ async function upsertLargeVehicle (data) {
   const payload = {
     reportingDate: data.reportingDate,
     wasVehicleInAudit: data.wasVehicleInAudit,
+    isEligibleForPermit: data.isEligibleForPermit,
     licensePlateNumber: data.licensePlateNumber,
     licensePlateState: data.licensePlateState,
     dataAsOf: data.dataAsOf,
