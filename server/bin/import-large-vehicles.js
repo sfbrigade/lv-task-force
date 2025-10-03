@@ -51,6 +51,7 @@ function mapLargeVehicle (rec) {
   const reportingDate = getField(rec, ['reporting date', 'reporting_date', 'reportingdate', 'report date']);
   const vehicleId = getField(rec, ['vehicle id', 'vehicle_id', 'vehicleid', 'vin', 'unique vehicle id']);
   const wasVehicleInAudit = getField(rec, ['was vehicle in audit', 'in audit', 'audited', 'was_in_audit']);
+  const isEligibleForPermit = getField(rec, ['is eligible for permit', 'eligible for permit', 'permit_eligible', 'permit_eligible']);
   const licensePlateNumber = getField(rec, ['license plate number', 'plate', 'license_plate', 'license plate']);
   const licensePlateState = getField(rec, ['license plate state', 'plate state', 'state']);
 
@@ -63,6 +64,7 @@ function mapLargeVehicle (rec) {
     reportingDate: toDate(reportingDate) || now,
     vehicleId: vehicleId ? String(vehicleId) : undefined,
     wasVehicleInAudit: toBoolean(wasVehicleInAudit) ?? false,
+    isEligibleForPermit: toBoolean(isEligibleForPermit) ?? false,
     licensePlateNumber: licensePlateNumber ? String(licensePlateNumber) : null,
     licensePlateState: licensePlateState ? String(licensePlateState) : null,
     dataAsOf: toDate(dataAsOf) || now,
@@ -108,6 +110,7 @@ async function upsertLargeVehicle (data) {
   const payload = {
     reportingDate: data.reportingDate,
     wasVehicleInAudit: data.wasVehicleInAudit,
+    isEligibleForPermit: data.isEligibleForPermit,
     licensePlateNumber: data.licensePlateNumber,
     licensePlateState: data.licensePlateState,
     dataAsOf: data.dataAsOf,

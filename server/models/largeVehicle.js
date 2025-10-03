@@ -7,6 +7,7 @@ const LargeVehicleAttributesSchema = z.object({
   reportingDate: z.coerce.date(),
   vehicleId: z.string(),
   wasVehicleInAudit: z.boolean(),
+  isEligibleForPermit: z.boolean(),
   licensePlateNumber: z.string().nullable().optional(),
   licensePlateState: z.string().nullable().optional(),
   dataAsOf: z.coerce.date(),
