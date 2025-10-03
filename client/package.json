@@ -27,6 +27,7 @@
     "i18next-http-backend": "^3.0.2",
     "inflection": "^3.0.2",
     "luxon": "^3.7.2",
+    "posthog-js": "^1.270.1",
     "prop-types": "^15.8.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
