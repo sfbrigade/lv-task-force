@@ -35,7 +35,7 @@ function Search () {
                 <Stack>
                   <Text fw='600'>{t('search.appealCardText')}</Text>
                   <Button component={Link} to='https://digital.forms.sf.gov/t/vpMQz4c7Jmus'>{t('search.submitAppeal')}</Button>
-                  <Button variant='secondary' component={Link} to='https://media.api.sf.gov/documents/Large_Vehicle_Program_Community_Events_-_09.23.25_-_FINAL.pdf'>{t('search.findCommunityEvent')}</Button>
+                  <Button variant='secondary' component={Link} to='https://www.sf.gov/large-vehicle-program-community-events'>{t('search.findCommunityEvent')}</Button>
                 </Stack>
               </Card>
             </Stack>}
@@ -43,7 +43,7 @@ function Search () {
             <Stack>
               <Title c='var(--mantine-color-text-success)' order={2}>{t('search.foundTitle')}</Title>
               <Text fw='600'>{t('search.foundInstruction')}</Text>
-              <Button component={Link} to='https://media.api.sf.gov/documents/Large_Vehicle_Program_Community_Events_-_09.23.25_-_FINAL.pdf'>{t('search.findCommunityEvent')}</Button>
+              <Button component={Link} to='https://www.sf.gov/large-vehicle-program-community-events'>{t('search.findCommunityEvent')}</Button>
             </Stack>}
         </Stack>
       </Container>
