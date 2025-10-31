@@ -33,9 +33,22 @@ function Search () {
               <Button component={Link} to='/'>{t('search.reenterButton')}</Button>
               <Card>
                 <Stack>
-                  <Text fw='600'>{t('search.appealCardText')}</Text>
-                  <Button component={Link} to='https://digital.forms.sf.gov/t/vpMQz4c7Jmus'>{t('search.submitAppeal')}</Button>
-                  <Button variant='secondary' component={Link} to='https://www.sf.gov/large-vehicle-program-community-events'>{t('search.findCommunityEvent')}</Button>
+                  <Text fw='600'>
+                    {t('search.appealCardText')}
+                    <ul>
+                      <li>
+                        {t('search.serviceList.shelterOptions')}
+                        <ul>
+                          <li>{t('search.serviceList.shelter.individual')}</li>
+                          <li>{t('search.serviceList.shelter.family')}</li>
+                          <li>{t('search.serviceList.shelter.etc')}</li>
+                        </ul>
+                      </li>
+                      <li>{t('search.serviceList.interventions')}</li>
+                      <li>{t('search.serviceList.housing')}</li>
+                    </ul>
+                    {t('search.contactText')}
+                  </Text>
                 </Stack>
               </Card>
             </Stack>}
@@ -43,7 +56,7 @@ function Search () {
             <Stack>
               <Title c='var(--mantine-color-text-success)' order={2}>{t('search.foundTitle')}</Title>
               <Text fw='600'>{t('search.foundInstruction')}</Text>
-              <Button component={Link} to='https://www.sf.gov/large-vehicle-program-community-events'>{t('search.findCommunityEvent')}</Button>
+              <Button component={Link} to='https://digital.forms.sf.gov/t/ufxxkihxpFus'>{t('search.findCommunityEvent')}</Button>
             </Stack>}
         </Stack>
       </Container>

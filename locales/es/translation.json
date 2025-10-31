@@ -26,8 +26,8 @@
     "checkVehicleButton": "Verificar vehículo",
     "databaseNote": "Esta herramienta le permite verificar si su vehículo fue registrado en la base de datos de Vehículos Grandes de la Ciudad al 31 de mayo de 2025.",
     "noPlateHeading": "¿No tiene matrícula?",
-    "noPlateDescription": "Si no tiene matrícula, o no sabe qué ingresar, asista a un Evento Comunitario para recibir ayuda.",
-    "findCommunityEvent": "Buscar un Evento Comunitario"
+    "noPlateDescription": "Complete el formulario a continuación para enviar una foto de su vehículo grande para la revisión del Programa.",
+    "findCommunityEvent": "Enviar una foto de su vehículo grande"
   },
   "search": {
     "metaTitle": "Búsqueda",
@@ -35,11 +35,22 @@
     "notFoundTitle": "No pudimos encontrar su vehículo en la base de datos",
     "notFoundInstruction": "Verifique el número de matrícula que ingresó.",
     "reenterButton": "Volver a ingresar la matrícula",
-    "appealCardText": "Si el número es correcto, aún podría calificar — presente una apelación o asista a un Evento Comunitario para recibir ayuda.",
+    "appealCardText": "El proceso de apelaciones sobre elegibilidad para permisos ya está cerrado. Sin embargo, aún puede ser elegible para los siguientes servicios:",
     "submitAppeal": "Presentar una apelación",
-    "findCommunityEvent": "Buscar un Evento Comunitario",
+    "findCommunityEvent": "Póngase en contacto con los Equipos de Alcance en la Calle",
     "foundTitle": "¡Buenas noticias! Su vehículo está en la base de datos",
-    "foundInstruction": "Podría calificar para un Permiso de Refugio para Vehículos Grandes. Asista a un próximo Evento Comunitario para aplicar."
+    "foundInstruction": "Usted califica para un Permiso de Refugio para Vehículos Grandes. Complete el siguiente formulario para ponerse en contacto con nuestros Equipos de Alcance en la Calle, quienes emitirán su permiso.",
+    "serviceList": {
+      "shelterOptions": "Opciones de albergue existentes:",
+      "shelter": {
+        "individual": "Ubicación en albergue congregado o no congregado a través de la Estrategia de Personas sin Vivienda en Vehículos y el Programa de Permisos de los Street Teams",
+        "family": "Albergue para familias a través de los Puntos de Acceso para Familias",
+        "etc": "Etcétera."
+      },
+      "interventions": "Intervenciones de resolución de problemas, incluida la asistencia para reubicación (Journey Home)",
+      "housing": "Opciones de vivienda existentes para hogares con Estatus de Referencia de Vivienda"
+    },
+    "contactText": "Llame al 311 para recibir ayuda o apoyo para encontrar un punto de acceso."
   },
   "privacy": {
     "metaTitle": "Política de privacidad",
