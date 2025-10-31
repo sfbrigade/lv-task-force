@@ -26,8 +26,8 @@
     "checkVehicleButton": "Aracı Kontrol Et",
     "databaseNote": "Bu araç, 31 Mayıs 2025 itibarıyla aracınızın Şehrin Büyük Araç veritabanında kayıtlı olup olmadığını kontrol etmenizi sağlar.",
     "noPlateHeading": "Plakanız yok mu?",
-    "noPlateDescription": "Plakanız yoksa veya ne gireceğinizi bilmiyorsanız, yardım için bir Topluluk Etkinliğine katılın.",
-    "findCommunityEvent": "Topluluk Etkinliği Bul"
+    "noPlateDescription": "Aşağıdaki formu doldurarak Program incelemesi için büyük aracınızın fotoğrafını gönderin.",
+    "findCommunityEvent": "Büyük aracınızın fotoğrafını gönderin"
   },
   "search": {
     "metaTitle": "Arama",

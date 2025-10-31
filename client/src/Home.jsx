@@ -36,7 +36,7 @@ function Home () {
         <Title order={2}>{t('home.noPlateHeading')}</Title>
         <Stack>
           <Text fw='600'>{t('home.noPlateDescription')}</Text>
-          <Button component={Link} to='https://www.sf.gov/large-vehicle-program-community-events'>{t('home.findCommunityEvent')}</Button>
+          <Button component={Link} to='https://digital.forms.sf.gov/t/fGktGkwBuKus'>{t('home.findCommunityEvent')}</Button>
         </Stack>
       </Container>
     </>

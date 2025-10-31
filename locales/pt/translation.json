@@ -26,8 +26,8 @@
     "checkVehicleButton": "Verificar veículo",
     "databaseNote": "Esta ferramenta permite verificar se seu veículo foi registrado no banco de dados de Veículos de Grande Porte da Cidade até 31 de maio de 2025.",
     "noPlateHeading": "Sem placa?",
-    "noPlateDescription": "Se você não tem placa, ou não sabe o que inserir, participe de um Evento Comunitário para obter ajuda.",
-    "findCommunityEvent": "Encontrar um Evento Comunitário"
+    "noPlateDescription": "Preencha o formulário abaixo para enviar uma foto do seu veículo de grande porte para revisão do Programa.",
+    "findCommunityEvent": "Enviar uma foto do seu veículo de grande porte"
   },
   "search": {
     "metaTitle": "Busca",

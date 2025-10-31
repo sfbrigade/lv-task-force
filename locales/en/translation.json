@@ -26,8 +26,8 @@
     "checkVehicleButton": "Check Vehicle",
     "databaseNote": "This tool lets you check if your vehicle was recorded in the City’s Large Vehicle database as of May 31, 2025.",
     "noPlateHeading": "Don’t have a license plate?",
-    "noPlateDescription": "If you don’t have a plate, or don’t know what to enter, attend a Community Event for help.",
-    "findCommunityEvent": "Find a Community Event"
+    "noPlateDescription": "Please fill out the form below to submit a photo of your LV for Program review.",
+    "findCommunityEvent": "Submit a photo of your LV"
   },
   "search": {
     "metaTitle": "Search",

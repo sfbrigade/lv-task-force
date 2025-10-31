@@ -26,8 +26,8 @@
     "checkVehicleButton": "Verificar vehículo",
     "databaseNote": "Esta herramienta le permite verificar si su vehículo fue registrado en la base de datos de Vehículos Grandes de la Ciudad al 31 de mayo de 2025.",
     "noPlateHeading": "¿No tiene matrícula?",
-    "noPlateDescription": "Si no tiene matrícula, o no sabe qué ingresar, asista a un Evento Comunitario para recibir ayuda.",
-    "findCommunityEvent": "Buscar un Evento Comunitario"
+    "noPlateDescription": "Complete el formulario a continuación para enviar una foto de su vehículo grande para la revisión del Programa.",
+    "findCommunityEvent": "Enviar una foto de su vehículo grande"
   },
   "search": {
     "metaTitle": "Búsqueda",

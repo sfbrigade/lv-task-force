@@ -26,8 +26,8 @@
     "checkVehicleButton": "Suriin ang Sasakyan",
     "databaseNote": "Tinutulungan ka ng tool na ito na tingnan kung ang iyong sasakyan ay naitala sa Large Vehicle database ng Lungsod noong Mayo 31, 2025.",
     "noPlateHeading": "Walang plaka?",
-    "noPlateDescription": "Kung wala kang plaka, o hindi mo alam ang ilalagay, dumalo sa isang Community Event para sa tulong.",
-    "findCommunityEvent": "Maghanap ng Community Event"
+    "noPlateDescription": "Pakisagutan ang form sa ibaba upang magsumite ng larawan ng iyong malaking sasakyan para sa pagsusuri ng Programa.",
+    "findCommunityEvent": "Magsumite ng larawan ng iyong malaking sasakyan"
   },
   "search": {
     "metaTitle": "Paghahanap",

@@ -26,8 +26,8 @@
     "checkVehicleButton": "Kiểm tra xe",
     "databaseNote": "Công cụ này cho phép bạn kiểm tra xem xe của bạn có được ghi nhận trong cơ sở dữ liệu Xe Cỡ Lớn của Thành phố tính đến ngày 31/05/2025 hay không.",
     "noPlateHeading": "Không có biển số?",
-    "noPlateDescription": "Nếu bạn không có biển số hoặc không biết nhập gì, hãy tham dự Sự kiện Cộng đồng để được hỗ trợ.",
-    "findCommunityEvent": "Tìm Sự kiện Cộng đồng"
+    "noPlateDescription": "Vui lòng điền biểu mẫu bên dưới để gửi ảnh của xe cỡ lớn của bạn để Chương trình xem xét.",
+    "findCommunityEvent": "Gửi ảnh xe cỡ lớn của bạn"
   },
   "search": {
     "metaTitle": "Tìm kiếm",
