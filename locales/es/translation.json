@@ -37,9 +37,9 @@
     "reenterButton": "Volver a ingresar la matrícula",
     "appealCardText": "Si el número es correcto, aún podría calificar — presente una apelación o asista a un Evento Comunitario para recibir ayuda.",
     "submitAppeal": "Presentar una apelación",
-    "findCommunityEvent": "Buscar un Evento Comunitario",
+    "findCommunityEvent": "Póngase en contacto con los Equipos de Alcance en la Calle",
     "foundTitle": "¡Buenas noticias! Su vehículo está en la base de datos",
-    "foundInstruction": "Podría calificar para un Permiso de Refugio para Vehículos Grandes. Asista a un próximo Evento Comunitario para aplicar."
+    "foundInstruction": "Usted califica para un Permiso de Refugio para Vehículos Grandes. Complete el siguiente formulario para ponerse en contacto con nuestros Equipos de Alcance en la Calle, quienes emitirán su permiso."
   },
   "privacy": {
     "metaTitle": "Política de privacidad",

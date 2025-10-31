@@ -43,7 +43,7 @@ function Search () {
             <Stack>
               <Title c='var(--mantine-color-text-success)' order={2}>{t('search.foundTitle')}</Title>
               <Text fw='600'>{t('search.foundInstruction')}</Text>
-              <Button component={Link} to='https://www.sf.gov/large-vehicle-program-community-events'>{t('search.findCommunityEvent')}</Button>
+              <Button component={Link} to='https://digital.forms.sf.gov/t/ufxxkihxpFus'>{t('search.findCommunityEvent')}</Button>
             </Stack>}
         </Stack>
       </Container>
