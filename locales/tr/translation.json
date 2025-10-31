@@ -35,11 +35,22 @@
     "notFoundTitle": "Aracınızı veritabanında bulamadık",
     "notFoundInstruction": "Lütfen girdiğiniz plaka numarasını kontrol edin.",
     "reenterButton": "Plakayı yeniden gir",
-    "appealCardText": "Numara doğruysa yine de uygun olabilirsiniz — itiraz gönderin veya yardım için bir Topluluk Etkinliğine katılın.",
+    "appealCardText": "İzin uygunluğu için itiraz süreci artık kapandı. Ancak, aşağıdaki hizmetler için yine de uygun olabilirsiniz:",
     "submitAppeal": "İtiraz Gönder",
     "findCommunityEvent": "Sokak Erişim Ekipleriyle iletişime geçin",
     "foundTitle": "İyi haber! Aracınız veritabanında",
-    "foundInstruction": "Büyük Araç Sığınak İzni için uygunsunuz. Lütfen aşağıdaki formu doldurarak izninizi düzenleyecek Sokak Erişim Ekiplerimizle iletişime geçin."
+    "foundInstruction": "Büyük Araç Sığınak İzni için uygunsunuz. Lütfen aşağıdaki formu doldurarak izninizi düzenleyecek Sokak Erişim Ekiplerimizle iletişime geçin.",
+    "serviceList": {
+      "shelterOptions": "Mevcut barınma seçenekleri:",
+      "shelter": {
+        "individual": "Sokak Ekipleri Araçta Evsizlik Stratejisi ve Ruhsatlandırma Programı aracılığıyla toplu veya toplu olmayan yerleştirme",
+        "family": "Aile Erişim Noktaları aracılığıyla aile barınağı",
+        "etc": "vb."
+      },
+      "interventions": "Sorun çözme müdahaleleri, yeniden yerleştirme yardımı dahil (Journey Home)",
+      "housing": "Konut Yönlendirme Statüsüne sahip haneler için mevcut konut seçenekleri"
+    },
+    "contactText": "Yardım veya bir erişim noktası bulma desteği için lütfen 311'i arayın."
   },
   "privacy": {
     "metaTitle": "Gizlilik Politikası",

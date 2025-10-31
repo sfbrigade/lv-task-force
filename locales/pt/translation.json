@@ -35,11 +35,22 @@
     "notFoundTitle": "Não encontramos seu veículo no banco de dados",
     "notFoundInstruction": "Verifique o número da placa que você digitou.",
     "reenterButton": "Digitar a placa novamente",
-    "appealCardText": "Se o número estiver correto, você ainda pode se qualificar — envie um recurso ou participe de um Evento Comunitário para obter ajuda.",
+    "appealCardText": "O processo de apelações sobre elegibilidade para permissão está encerrado. No entanto, você ainda pode ser elegível para os seguintes serviços:",
     "submitAppeal": "Enviar Recurso",
     "findCommunityEvent": "Entre em contato com as Equipes de Outreach de Rua",
     "foundTitle": "Boas notícias! Seu veículo está no banco de dados",
-    "foundInstruction": "Você se qualifica para uma Permissão de Refúgio para Veículos de Grande Porte. Preencha o formulário abaixo para entrar em contato com nossas Equipes de Outreach de Rua, que emitirão sua permissão."
+    "foundInstruction": "Você se qualifica para uma Permissão de Refúgio para Veículos de Grande Porte. Preencha o formulário abaixo para entrar em contato com nossas Equipes de Outreach de Rua, que emitir\u00e3o sua permissão.",
+    "serviceList": {
+      "shelterOptions": "Opções de abrigo existentes:",
+      "shelter": {
+        "individual": "Vaga em abrigo congregado ou n\u00e3o congregado por meio do Street Teams Vehicular Homelessness Strategy and Permitting Program",
+        "family": "Abrigo para fam\u00edlias por meio dos Family Access Points",
+        "etc": "Etc."
+      },
+      "interventions": "Intervenções de resolução de problemas, incluindo assistência de realocação (Journey Home)",
+      "housing": "Opções de moradia existentes para famílias com Housing Referral Status"
+    },
+    "contactText": "Ligue para 311 para obter assistência ou apoio para encontrar um ponto de acesso."
   },
   "privacy": {
     "metaTitle": "Política de Privacidade",
