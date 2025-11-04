@@ -35,18 +35,13 @@
     "notFoundTitle": "We couldn’t find your vehicle in the database",
     "notFoundInstruction": "Please double-check the license plate number you entered.",
     "reenterButton": "Re-enter license plate",
-    "appealCardText": "The permit eligibility appeals process is now closed. However, you still may be eligible for the following services:",
+    "appealCardText": "You may still be eligible for services, including:",
     "submitAppeal": "Submit an Appeal",
     "findCommunityEvent": "Get in touch with Street Outreach Teams",
     "foundTitle": "Good news! Your vehicle is in the database",
     "foundInstruction": "You qualify for a Large Vehicle Refuge Permit. Please fill out the form below to get in touch with our Street Outreach Teams to be certified by the Department of Homelessness and Supportive Housing as currently experiencing vehicular homelessness and engaging in services.",
     "serviceList": {
-      "shelterOptions": "Existing shelter options:",
-      "shelter": {
-        "individual": "Congregate or non-congregate placement through Street Teams Vehicular Homelessness Strategy and Permitting Program",
-        "family": "Family shelter through Family Access Points",
-        "etc": "Etc."
-      },
+      "shelterOptions": "Existing shelter options, including congregate or non-congregate adult shelter through Street Teams",
       "interventions": "Problem-solving interventions, including relocation assistance (Journey Home)",
       "housing": "Existing housing options for Housing Referral Status households"
     },

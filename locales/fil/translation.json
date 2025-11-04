@@ -35,18 +35,13 @@
     "notFoundTitle": "Hindi namin nahanap ang iyong sasakyan sa database",
     "notFoundInstruction": "Pakisuri muli ang numerong plaka na iyong inilagay.",
     "reenterButton": "Ilagay muli ang plaka",
-    "appealCardText": "Sarado na ang proseso ng pag-apela para sa pagiging kwalipikado sa permit. Gayunman, maaari ka pa ring maging kwalipikado para sa mga sumusunod na serbisyo:",
+    "appealCardText": "Maaari ka pa ring maging karapat-dapat para sa mga serbisyo, kabilang ang:",
     "submitAppeal": "Magsumite ng Apela",
     "findCommunityEvent": "Makipag-ugnayan sa mga Street Outreach Team",
     "foundTitle": "Magandang balita! Ang iyong sasakyan ay nasa database",
     "foundInstruction": "Kwalipikado ka para sa Permit sa Kanlungan para sa Malalaking Sasakyan. Pakisagutan ang form sa ibaba upang makipag-ugnayan sa aming mga Street Outreach Team upang ma-certify ng Department of Homelessness and Supportive Housing (HSH) na kasalukuyan kang nakararanas ng kawalan ng tirahan sa sasakyan at nakikilahok sa mga serbisyo.",
     "serviceList": {
-      "shelterOptions": "Umiiral na mga opsyon sa tuluyan:",
-      "shelter": {
-        "individual": "Congregate o non-congregate na placement sa pamamagitan ng Street Teams Vehicular Homelessness Strategy and Permitting Program",
-        "family": "Shelter para sa pamilya sa pamamagitan ng Family Access Points",
-        "etc": "At iba pa."
-      },
+      "shelterOptions": "Umiiral na mga opsyon sa tuluyan, kabilang ang congregate o non-congregate na tuluyan para sa matatanda sa pamamagitan ng Street Teams",
       "interventions": "Mga interbensiyon sa problem-solving, kabilang ang tulong sa relokasyon (Journey Home)",
       "housing": "Umiiral na mga opsyon sa pabahay para sa mga sambahayang may Housing Referral Status"
     },

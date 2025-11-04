@@ -36,14 +36,7 @@ function Search () {
                   <Text fw='600'>
                     {t('search.appealCardText')}
                     <ul>
-                      <li>
-                        {t('search.serviceList.shelterOptions')}
-                        <ul>
-                          <li>{t('search.serviceList.shelter.individual')}</li>
-                          <li>{t('search.serviceList.shelter.family')}</li>
-                          <li>{t('search.serviceList.shelter.etc')}</li>
-                        </ul>
-                      </li>
+                      <li>{t('search.serviceList.shelterOptions')}</li>
                       <li>{t('search.serviceList.interventions')}</li>
                       <li>{t('search.serviceList.housing')}</li>
                     </ul>

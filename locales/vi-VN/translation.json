@@ -35,18 +35,13 @@
     "notFoundTitle": "Chúng tôi không tìm thấy xe của bạn trong cơ sở dữ liệu",
     "notFoundInstruction": "Vui lòng kiểm tra lại số biển số mà bạn đã nhập.",
     "reenterButton": "Nhập lại biển số",
-    "appealCardText": "Quy trình kháng nghị về đủ điều kiện cấp phép hiện đã kết thúc. Tuy nhiên, bạn vẫn có thể đủ điều kiện cho các dịch vụ sau:",
+    "appealCardText": "Bạn vẫn có thể đủ điều kiện cho các dịch vụ, bao gồm:",
     "submitAppeal": "Nộp đơn Kháng nghị",
     "findCommunityEvent": "Liên hệ với Nhóm Tiếp cận Đường phố",
     "foundTitle": "Tin tốt! Xe của bạn có trong cơ sở dữ liệu",
     "foundInstruction": "Bạn đủ điều kiện để nhận Giấy phép Chỗ trú cho Xe Cỡ Lớn. Vui lòng điền vào biểu mẫu bên dưới để liên hệ với các Nhóm Tiếp cận Đường phố của chúng tôi để được Sở Vô gia cư và Nhà ở Hỗ trợ (HSH) chứng nhận là hiện đang trải qua tình trạng vô gia cư trên phương tiện và đang tham gia các dịch vụ.",
     "serviceList": {
-      "shelterOptions": "Các lựa chọn chỗ ở hiện có:",
-      "shelter": {
-        "individual": "Sắp xếp chỗ ở tập trung hoặc không tập trung thông qua Chiến lược Vô gia cư Sống trên Xe và Chương trình Cấp phép của Street Teams",
-        "family": "Chỗ ở cho gia đình thông qua các Điểm Tiếp cận Gia đình",
-        "etc": "V.v."
-      },
+      "shelterOptions": "Các lựa chọn chỗ ở hiện có, bao gồm chỗ ở tập trung hoặc không tập trung cho người lớn thông qua Street Teams",
       "interventions": "Các can thiệp giải quyết vấn đề, bao gồm hỗ trợ tái định cư (Journey Home)",
       "housing": "Các lựa chọn nhà ở hiện có cho các hộ gia đình có Tình trạng Giới thiệu Nhà ở"
     },
