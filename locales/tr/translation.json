@@ -33,7 +33,7 @@
     "metaTitle": "Arama",
     "licensePlateLabel": "Plaka:",
     "notFoundTitle": "Aracınızı veritabanında bulamadık",
-    "notFoundInstruction": "Lütfen girdiğiniz plaka numarasını kontrol edin.",
+    "notFoundInstruction": "Lütfen girdiğiniz plaka numarasını tekrar kontrol edin. Lütfen aracınızın Ulaşım Kodu 7.2.54 kapsamında park uygulamasına tabi olabileceğini unutmayın.",
     "reenterButton": "Plakayı yeniden gir",
     "appealCardText": "Aşağıdaki hizmetler için yine de uygun olabilirsiniz:",
     "submitAppeal": "İtiraz Gönder",

@@ -33,7 +33,7 @@
     "metaTitle": "Search",
     "licensePlateLabel": "License plate:",
     "notFoundTitle": "We couldn’t find your vehicle in the database",
-    "notFoundInstruction": "Please double-check the license plate number you entered.",
+    "notFoundInstruction": "Please double-check the license plate number you entered. Please be aware that your vehicle may be subject to parking enforcement under Transportation Code 7.2.54.",
     "reenterButton": "Re-enter license plate",
     "appealCardText": "You may still be eligible for services, including:",
     "submitAppeal": "Submit an Appeal",

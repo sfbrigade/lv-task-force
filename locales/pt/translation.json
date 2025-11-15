@@ -33,7 +33,7 @@
     "metaTitle": "Busca",
     "licensePlateLabel": "Placa:",
     "notFoundTitle": "Não encontramos seu veículo no banco de dados",
-    "notFoundInstruction": "Verifique o número da placa que você digitou.",
+    "notFoundInstruction": "Verifique novamente o número da placa digitado. Esteja ciente de que seu veículo pode estar sujeito à fiscalização de estacionamento conforme o Código de Transporte 7.2.54.",
     "reenterButton": "Digitar a placa novamente",
     "appealCardText": "Você ainda pode ser elegível para serviços, incluindo:",
     "submitAppeal": "Enviar Recurso",
