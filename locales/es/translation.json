@@ -26,7 +26,7 @@
     "checkVehicleButton": "Verificar vehículo",
     "databaseNote": "Esta herramienta le permite verificar si su vehículo fue registrado en la base de datos de Vehículos Grandes de la Ciudad al 31 de mayo de 2025.",
     "noPlateHeading": "¿No tiene matrícula?",
-    "noPlateDescription": "Complete el formulario a continuación para enviar una foto de su vehículo grande para la revisión del Programa.",
+    "noPlateDescription": "Complete el formulario a continuación para enviar una foto de su vehículo grande para la revisión del Programa. Enviar una foto no inicia el proceso de apelación de elegibilidad para el permiso ni exime a un vehículo grande sin permiso de la aplicación del límite de estacionamiento de 2 horas.",
     "findCommunityEvent": "Enviar una foto de su vehículo grande"
   },
   "search": {

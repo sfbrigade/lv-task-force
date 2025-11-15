@@ -26,7 +26,7 @@
     "checkVehicleButton": "查詢車輛",
     "databaseNote": "此工具可讓您查詢您的車輛是否已於 2025 年 5 月 31 日登錄至本市大型車輛資料庫。",
     "noPlateHeading": "沒有車牌嗎？",
-    "noPlateDescription": "請填寫下方表單，提交您的大型車輛照片以供計畫審查。",
+    "noPlateDescription": "請填寫下方表單，提交您的大型車輛照片以供計畫審查。提交照片不會啟動許可資格申訴程序，亦不會使未持許可之大型車輛免於 2 小時停車執法。",
     "findCommunityEvent": "提交大型車輛照片"
   },
   "search": {

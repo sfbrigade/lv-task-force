@@ -26,7 +26,7 @@
     "checkVehicleButton": "Verificar veículo",
     "databaseNote": "Esta ferramenta permite verificar se seu veículo foi registrado no banco de dados de Veículos de Grande Porte da Cidade até 31 de maio de 2025.",
     "noPlateHeading": "Sem placa?",
-    "noPlateDescription": "Preencha o formulário abaixo para enviar uma foto do seu veículo de grande porte para revisão do Programa.",
+    "noPlateDescription": "Preencha o formulário abaixo para enviar uma foto do seu veículo de grande porte para revisão do Programa. Enviar uma foto não inicia o processo de apelação de elegibilidade para a permissão nem isenta um veículo de grande porte sem permissão da aplicação do limite de estacionamento de 2 horas.",
     "findCommunityEvent": "Enviar uma foto do seu veículo de grande porte"
   },
   "search": {

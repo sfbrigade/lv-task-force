@@ -26,7 +26,7 @@
     "checkVehicleButton": "Kiểm tra xe",
     "databaseNote": "Công cụ này cho phép bạn kiểm tra xem xe của bạn có được ghi nhận trong cơ sở dữ liệu Xe Cỡ Lớn của Thành phố tính đến ngày 31/05/2025 hay không.",
     "noPlateHeading": "Không có biển số?",
-    "noPlateDescription": "Vui lòng điền biểu mẫu bên dưới để gửi ảnh của xe cỡ lớn của bạn để Chương trình xem xét.",
+    "noPlateDescription": "Vui lòng điền biểu mẫu bên dưới để gửi ảnh của xe cỡ lớn của bạn để Chương trình xem xét. Việc gửi ảnh không khởi động quy trình kháng nghị về đủ điều kiện cấp phép và cũng không miễn trừ cho xe cỡ lớn chưa có giấy phép khỏi việc thực thi giới hạn đỗ xe 2 giờ.",
     "findCommunityEvent": "Gửi ảnh xe cỡ lớn của bạn"
   },
   "search": {

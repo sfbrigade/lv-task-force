@@ -26,7 +26,7 @@
     "checkVehicleButton": "Aracı Kontrol Et",
     "databaseNote": "Bu araç, 31 Mayıs 2025 itibarıyla aracınızın Şehrin Büyük Araç veritabanında kayıtlı olup olmadığını kontrol etmenizi sağlar.",
     "noPlateHeading": "Plakanız yok mu?",
-    "noPlateDescription": "Aşağıdaki formu doldurarak Program incelemesi için büyük aracınızın fotoğrafını gönderin.",
+    "noPlateDescription": "Aşağıdaki formu doldurarak Program incelemesi için büyük aracınızın fotoğrafını gönderin. Fotoğraf göndermek, izin uygunluğu itiraz sürecini başlatmaz ve izinsiz bir büyük aracı 2 saatlik park uygulamasından muaf tutmaz.",
     "findCommunityEvent": "Büyük aracınızın fotoğrafını gönderin"
   },
   "search": {

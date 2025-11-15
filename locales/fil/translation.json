@@ -26,7 +26,7 @@
     "checkVehicleButton": "Suriin ang Sasakyan",
     "databaseNote": "Tinutulungan ka ng tool na ito na tingnan kung ang iyong sasakyan ay naitala sa Large Vehicle database ng Lungsod noong Mayo 31, 2025.",
     "noPlateHeading": "Walang plaka?",
-    "noPlateDescription": "Pakisagutan ang form sa ibaba upang magsumite ng larawan ng iyong malaking sasakyan para sa pagsusuri ng Programa.",
+    "noPlateDescription": "Pakisagutan ang form sa ibaba upang magsumite ng larawan ng iyong malaking sasakyan para sa pagsusuri ng Programa. Ang pagsusumite ng larawan ay hindi nagsisimula ng proseso ng pag-apela para sa pagiging kwalipikado sa permit at hindi rin naglilibre sa isang walang-permit na malaking sasakyan mula sa pagpapatupad ng 2-oras na limitasyon sa paradahan.",
     "findCommunityEvent": "Magsumite ng larawan ng iyong malaking sasakyan"
   },
   "search": {
