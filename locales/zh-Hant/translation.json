@@ -21,7 +21,9 @@
   "home": {
     "metaTitle": "首頁",
     "permitProgramLink": "前往大型車輛計畫網站 →",
-    "instructions": "請輸入您的車牌號碼，查看您的車輛是否符合大型車輛安置許可的資格。",
+    "instructions": "如果您在 2025 年 5 月 31 日居住在舊金山街道上的大型車輛中，您可能有資格獲得大型車輛避難許可證。要獲得許可證資格：",
+    "instructions.1": "您必須正處於車輛無家可歸狀態。",
+    "instructions.2": "您的車輛必須列在市府的大型車輛資料庫中（請在下方輸入您的車牌號碼，以查看您的車輛是否符合大型車輛避難許可證的資格）。",
     "licensePlatePlaceholder": "例如：1ABC234",
     "checkVehicleButton": "查詢車輛",
     "databaseNote": "此工具可讓您查詢您的車輛是否已於 2025 年 5 月 31 日登錄至本市大型車輛資料庫。",

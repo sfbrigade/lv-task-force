@@ -21,7 +21,9 @@
   "home": {
     "metaTitle": "Ana Sayfa",
     "permitProgramLink": "Büyük Araç Programı Sitesine Git →",
-    "instructions": "Aracınızın Büyük Araç Sığınak İzni için uygun olup olmadığını görmek için plaka numaranızı girin.",
+    "instructions": "31 Mayıs 2025 tarihinde San Francisco sokaklarında büyük bir araçta yaşıyorduysanız, Büyük Araç Sığınma İzni (Large Vehicle Refuge Permit) almaya hak kazanabilirsiniz. İzin alabilmek için:",
+    "instructions.1": "Araçta barınma sorunu (vehicular homelessness) yaşıyor olmalısınız.",
+    "instructions.2": "Aracınız Şehrin Büyük Araç Veri Tabanında kayıtlı olmalıdır (aracınızın Büyük Araç Sığınma İzni için uygun olup olmadığını görmek için aşağıya plakanızı girin).",
     "licensePlatePlaceholder": "ör. 1ABC234",
     "checkVehicleButton": "Aracı Kontrol Et",
     "databaseNote": "Bu araç, 31 Mayıs 2025 itibarıyla aracınızın Şehrin Büyük Araç veritabanında kayıtlı olup olmadığını kontrol etmenizi sağlar.",

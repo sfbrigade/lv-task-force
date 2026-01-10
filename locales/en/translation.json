@@ -21,7 +21,9 @@
   "home": {
     "metaTitle": "Home",
     "permitProgramLink": "To Large Vehicle Program Site →",
-    "instructions": "Enter your license plate number to see if your vehicle qualifies for a Large Vehicle Refuge Permit.",
+    "instructions": "If you were living in a large vehicle on the streets of San Francisco on May 31, 2025, you may qualify for a Large Vehicle Refuge Permit. To qualify for a permit:",
+    "instructions.1": "You must be experiencing vehicular homelessness.",
+    "instructions.2": "Your vehicle must be listed in the City’s Large Vehicle Database (enter your license plate below to see if your vehicle qualifies for a Large Vehicle Refuge Permit).",
     "licensePlatePlaceholder": "e.g. 1ABC234",
     "checkVehicleButton": "Check Vehicle",
     "databaseNote": "This tool lets you check if your vehicle was recorded in the City’s Large Vehicle database as of May 31, 2025.",

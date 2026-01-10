@@ -21,7 +21,9 @@
   "home": {
     "metaTitle": "Início",
     "permitProgramLink": "Ir para o Site do Programa de Veículos de Grande Porte →",
-    "instructions": "Insira o número da sua placa para ver se seu veículo se qualifica para uma Permissão de Refúgio para Veículos de Grande Porte.",
+    "instructions": "Se você morava em um veículo de grande porte nas ruas de San Francisco em 31 de maio de 2025, poderá ter direito a uma Permissão de Refúgio para Veículos de Grande Porte. Para se qualificar para uma permissão:",
+    "instructions.1": "Você deve estar em situação de falta de moradia em veículo.",
+    "instructions.2": "Seu veículo deve estar listado no Banco de Dados de Veículos de Grande Porte da Cidade (insira sua placa abaixo para ver se o seu veículo se qualifica para uma Permissão de Refúgio para Veículos de Grande Porte).",
     "licensePlatePlaceholder": "ex.: 1ABC234",
     "checkVehicleButton": "Verificar veículo",
     "databaseNote": "Esta ferramenta permite verificar se seu veículo foi registrado no banco de dados de Veículos de Grande Porte da Cidade até 31 de maio de 2025.",

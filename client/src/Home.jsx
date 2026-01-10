@@ -24,7 +24,13 @@ function Home () {
         <Card mb='md'>
           <form onSubmit={onSubmit}>
             <Stack>
-              <Text fz='lg' fw='600'>{t('home.instructions')}</Text>
+              <Text fz='lg' fw='600'>
+                {t('home.instructions')}
+                <ul>
+                  <li>{t('home.instructions.1')}</li>
+                  <li>{t('home.instructions.2')}</li>
+                </ul>
+              </Text>
               <FocusTrap>
                 <TextInput name='licensePlateNumber' placeholder={t('home.licensePlatePlaceholder')} value={licensePlateNumber} onChange={(e) => setLicensePlateNumber(e.target.value)} data-autofocus />
               </FocusTrap>
