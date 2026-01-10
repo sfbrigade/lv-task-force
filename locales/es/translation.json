@@ -21,7 +21,9 @@
   "home": {
     "metaTitle": "Inicio",
     "permitProgramLink": "Ir al Sitio del Programa de Vehículos Grandes →",
-    "instructions": "Ingrese su número de matrícula para ver si su vehículo califica para un Permiso de Refugio para Vehículos Grandes.",
+    "instructions": "Si vivía en un vehículo grande en las calles de San Francisco el 31 de mayo de 2025, puede calificar para un Permiso de Refugio para Vehículos Grandes. Para calificar para un permiso:",
+    "instructions.1": "Debe estar en situación de falta de vivienda en un vehículo.",
+    "instructions.2": "Su vehículo debe figurar en la base de datos de vehículos grandes de la ciudad (ingrese su matrícula a continuación para ver si su vehículo califica para un permiso de refugio para vehículos grandes).",
     "licensePlatePlaceholder": "p. ej., 1ABC234",
     "checkVehicleButton": "Verificar vehículo",
     "databaseNote": "Esta herramienta le permite verificar si su vehículo fue registrado en la base de datos de Vehículos Grandes de la Ciudad al 31 de mayo de 2025.",

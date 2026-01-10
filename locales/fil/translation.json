@@ -21,7 +21,9 @@
   "home": {
     "metaTitle": "Home",
     "permitProgramLink": "Pumunta sa Site ng Programa ng Malalaking Sasakyan →",
-    "instructions": "Ilagay ang numero ng iyong plaka upang makita kung kwalipikado ang iyong sasakyan para sa Permit sa Kanlungan para sa Malalaking Sasakyan.",
+    "instructions": "Kung naninirahan ka sa isang malaking sasakyan sa mga kalye ng San Francisco noong Mayo 31, 2025, maaari kang maging karapat-dapat para sa isang Large Vehicle Refuge Permit. Upang maging karapat-dapat para sa isang permit:",
+    "instructions.1": "Dapat kang nakakaranas ng vehicular homelessness (kawalan ng tahanan at naninirahan sa sasakyan).",
+    "instructions.2": "Dapat na nakalista ang iyong sasakyan sa Large Vehicle Database ng Lungsod (ilagay ang iyong license plate sa ibaba upang makita kung ang iyong sasakyan ay karapat-dapat para sa isang Large Vehicle Refuge Permit).",
     "licensePlatePlaceholder": "hal. 1ABC234",
     "checkVehicleButton": "Suriin ang Sasakyan",
     "databaseNote": "Tinutulungan ka ng tool na ito na tingnan kung ang iyong sasakyan ay naitala sa Large Vehicle database ng Lungsod noong Mayo 31, 2025.",

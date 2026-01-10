@@ -21,7 +21,9 @@
   "home": {
     "metaTitle": "Trang chủ",
     "permitProgramLink": "Tới Trang Chương trình Xe Cỡ Lớn →",
-    "instructions": "Nhập số biển số để xem xe của bạn có đủ điều kiện nhận Giấy phép Chỗ trú cho Xe Cỡ Lớn hay không.",
+    "instructions": "Nếu quý vị đang sống trong một phương tiện lớn trên các đường phố của San Francisco vào ngày 31 tháng 5 năm 2025, quý vị có thể đủ điều kiện nhận Giấy phép Trú ẩn cho Phương tiện Lớn. Để đủ điều kiện nhận giấy phép:",
+    "instructions.1": "Quý vị phải đang trong tình trạng vô gia cư trên phương tiện.",
+    "instructions.2": "Phương tiện của quý vị phải có tên trong Cơ sở dữ liệu Phương tiện Lớn của Thành phố (nhập biển số xe của quý vị bên dưới để xem phương tiện của quý vị có đủ điều kiện nhận Giấy phép Trú ẩn cho Phương tiện Lớn hay không).",
     "licensePlatePlaceholder": "vd: 1ABC234",
     "checkVehicleButton": "Kiểm tra xe",
     "databaseNote": "Công cụ này cho phép bạn kiểm tra xem xe của bạn có được ghi nhận trong cơ sở dữ liệu Xe Cỡ Lớn của Thành phố tính đến ngày 31/05/2025 hay không.",
